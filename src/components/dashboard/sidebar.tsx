@@ -64,7 +64,10 @@ export function Sidebar() {
                   )}
                   <div className="space-y-1">
                     {group.items.map((item) => {
-                      const isActive = pathname === item.href || pathname.startsWith(`${item.href}/`)
+                      // For /dashboard, only match exact path. For others, also match child routes
+                      const isActive = item.href === "/dashboard"
+                        ? pathname === "/dashboard"
+                        : pathname === item.href || pathname.startsWith(`${item.href}/`)
                       const Icon = item.icon
 
                       const navLink = (

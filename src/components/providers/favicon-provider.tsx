@@ -2,24 +2,6 @@
 
 import { useEffect } from "react"
 
-function updateFavicon(url: string) {
-  // Remove existing favicon links
-  const existingLinks = document.querySelectorAll("link[rel*='icon']")
-  existingLinks.forEach((link) => link.remove())
-
-  // Create new favicon link
-  const link = document.createElement("link")
-  link.rel = "icon"
-  link.href = url
-  document.head.appendChild(link)
-
-  // Also add shortcut icon for older browsers
-  const shortcut = document.createElement("link")
-  shortcut.rel = "shortcut icon"
-  shortcut.href = url
-  document.head.appendChild(shortcut)
-}
-
 export function FaviconLoader() {
   useEffect(() => {
     // Fetch favicon setting and apply it
@@ -29,7 +11,16 @@ export function FaviconLoader() {
         if (Array.isArray(data)) {
           const faviconSetting = data.find((s: { key: string }) => s.key === "favicon")
           if (faviconSetting?.value) {
-            updateFavicon(faviconSetting.value)
+            // Simply update existing favicon or create new one
+            let link = document.querySelector("link[rel='icon']") as HTMLLinkElement | null
+            if (link) {
+              link.href = faviconSetting.value
+            } else {
+              link = document.createElement("link")
+              link.rel = "icon"
+              link.href = faviconSetting.value
+              document.head.appendChild(link)
+            }
           }
         }
       })
@@ -40,6 +31,3 @@ export function FaviconLoader() {
 
   return null
 }
-
-// Alias for backwards compatibility
-export const FaviconProvider = FaviconLoader

@@ -7,11 +7,15 @@ import { getSettings } from "@/lib/settings"
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "500", "600", "700"],
 })
 
 const plusJakarta = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta",
   subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "500", "600", "700"],
 })
 
 export async function generateMetadata(): Promise<Metadata> {

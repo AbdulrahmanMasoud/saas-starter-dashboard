@@ -13,21 +13,18 @@ import { toast } from "sonner"
 
 // Update favicon in the browser
 function updateFavicon(url: string) {
-  // Remove existing favicon links
-  const existingLinks = document.querySelectorAll("link[rel*='icon']")
-  existingLinks.forEach((link) => link.remove())
+  if (typeof document === "undefined") return
 
-  // Create new favicon link
-  const link = document.createElement("link")
-  link.rel = "icon"
-  link.href = url
-  document.head.appendChild(link)
-
-  // Also add shortcut icon for older browsers
-  const shortcut = document.createElement("link")
-  shortcut.rel = "shortcut icon"
-  shortcut.href = url
-  document.head.appendChild(shortcut)
+  // Simply update existing favicon or create new one
+  let link = document.querySelector("link[rel='icon']") as HTMLLinkElement | null
+  if (link) {
+    link.href = url
+  } else {
+    link = document.createElement("link")
+    link.rel = "icon"
+    link.href = url
+    document.head.appendChild(link)
+  }
 }
 
 const colorPresets = [
@@ -347,13 +344,6 @@ export default function AppearanceSettingsPage() {
                     className="w-6 h-6 object-contain"
                     onError={(e) => {
                       e.currentTarget.style.display = "none"
-                      const parent = e.currentTarget.parentElement
-                      if (parent) {
-                        const icon = document.createElement("span")
-                        icon.className = "text-muted-foreground text-xs"
-                        icon.textContent = "?"
-                        parent.appendChild(icon)
-                      }
                     }}
                   />
                 </div>
