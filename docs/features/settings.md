@@ -154,6 +154,8 @@ The settings system provides centralized configuration management for all aspect
 | `google_analytics_id` | GA tracking ID | "G-XXXXXXXXXX" |
 | `google_tag_manager_id` | GTM container ID | "GTM-XXXXXXX" |
 | `facebook_pixel_id` | FB Pixel ID | "123456789" |
+| `tiktok_pixel_id` | TikTok Pixel ID | "XXXXXXXXXXXXXXXXXX" |
+| `snapchat_pixel_id` | Snapchat Pixel ID | "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" |
 
 ### Custom Scripts
 

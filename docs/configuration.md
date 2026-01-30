@@ -232,7 +232,10 @@ Settings are managed through the Settings page in the dashboard and stored in th
 | Setting | Description |
 |---------|-------------|
 | `google_analytics_id` | Google Analytics tracking ID |
+| `google_tag_manager_id` | Google Tag Manager container ID |
 | `facebook_pixel_id` | Facebook Pixel ID |
+| `tiktok_pixel_id` | TikTok Pixel ID |
+| `snapchat_pixel_id` | Snapchat Pixel ID |
 | `custom_head_scripts` | Custom scripts for `<head>` |
 | `custom_body_scripts` | Custom scripts for `<body>` |
 

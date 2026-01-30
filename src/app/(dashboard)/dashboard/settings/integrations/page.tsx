@@ -15,6 +15,8 @@ export default function IntegrationsSettingsPage() {
     googleAnalyticsId: "",
     googleTagManagerId: "",
     facebookPixelId: "",
+    tiktokPixelId: "",
+    snapchatPixelId: "",
     customHeadScripts: "",
     customBodyScripts: "",
   })
@@ -99,6 +101,30 @@ export default function IntegrationsSettingsPage() {
               onChange={(e) => setSettings({ ...settings, facebookPixelId: e.target.value })}
               placeholder="XXXXXXXXXXXXXXX"
             />
+          </div>
+          <div className="space-y-2">
+            <Label htmlFor="tiktokPixelId">TikTok Pixel ID</Label>
+            <Input
+              id="tiktokPixelId"
+              value={settings.tiktokPixelId}
+              onChange={(e) => setSettings({ ...settings, tiktokPixelId: e.target.value })}
+              placeholder="XXXXXXXXXXXXXXXXXX"
+            />
+            <p className="text-xs text-muted-foreground">
+              Your TikTok Pixel ID from TikTok Events Manager
+            </p>
+          </div>
+          <div className="space-y-2">
+            <Label htmlFor="snapchatPixelId">Snapchat Pixel ID</Label>
+            <Input
+              id="snapchatPixelId"
+              value={settings.snapchatPixelId}
+              onChange={(e) => setSettings({ ...settings, snapchatPixelId: e.target.value })}
+              placeholder="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+            />
+            <p className="text-xs text-muted-foreground">
+              Your Snapchat Pixel ID from Snap Ads Manager
+            </p>
           </div>
         </CardContent>
       </Card>
