@@ -64,6 +64,13 @@ npm run db:reset     # Reset database and reapply migrations
 - Sidebar config in `src/config/navigation.ts`
 - Each nav item can have `permission` for visibility control
 
+**Providers:**
+- `src/components/providers/index.tsx` - Combines all providers
+- `theme-provider.tsx` - Dark/light/system theme
+- `session-provider.tsx` - NextAuth session
+- `favicon-provider.tsx` - Dynamic favicon from settings
+- `analytics-provider.tsx` - Injects tracking pixels (GA, GTM, Facebook, TikTok, Snapchat)
+
 **Stores (Zustand):**
 - `src/stores/sidebar-store.ts` - Sidebar collapse state
 - `src/stores/notification-store.ts` - Notification state
