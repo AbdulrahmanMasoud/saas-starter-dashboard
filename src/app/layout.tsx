@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Inter, Plus_Jakarta_Sans } from "next/font/google"
 import "./globals.css"
 import { Providers } from "@/components/providers"
+import { getSettings } from "@/lib/settings"
 
 const inter = Inter({
   variable: "--font-inter",
@@ -13,9 +14,23 @@ const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
 })
 
-export const metadata: Metadata = {
-  title: "Dashboard",
-  description: "A modern admin dashboard",
+export async function generateMetadata(): Promise<Metadata> {
+  const settings = await getSettings(["siteName", "siteDescription", "favicon"])
+
+  const metadata: Metadata = {
+    title: settings.siteName || "Dashboard",
+    description: settings.siteDescription || "A modern admin dashboard",
+  }
+
+  // Add custom favicon if set
+  if (settings.favicon) {
+    metadata.icons = {
+      icon: settings.favicon,
+      shortcut: settings.favicon,
+    }
+  }
+
+  return metadata
 }
 
 export default function RootLayout({

@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, useCallback } from "react"
+import { useState, useEffect, useCallback, useRef } from "react"
 import { Loader2, Upload } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -10,6 +10,25 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Skeleton } from "@/components/ui/skeleton"
 import { useTheme } from "@/components/providers/theme-provider"
 import { toast } from "sonner"
+
+// Update favicon in the browser
+function updateFavicon(url: string) {
+  // Remove existing favicon links
+  const existingLinks = document.querySelectorAll("link[rel*='icon']")
+  existingLinks.forEach((link) => link.remove())
+
+  // Create new favicon link
+  const link = document.createElement("link")
+  link.rel = "icon"
+  link.href = url
+  document.head.appendChild(link)
+
+  // Also add shortcut icon for older browsers
+  const shortcut = document.createElement("link")
+  shortcut.rel = "shortcut icon"
+  shortcut.href = url
+  document.head.appendChild(shortcut)
+}
 
 const colorPresets = [
   { name: "Violet", value: "#6366f1", hsl: "238.7 83.5% 66.7%" },
@@ -71,12 +90,42 @@ const PRIMARY_COLOR_KEY = "dashboard-primary-color"
 
 export default function AppearanceSettingsPage() {
   const [isLoading, setIsLoading] = useState(false)
+  const [isUploading, setIsUploading] = useState<"logo" | "favicon" | null>(null)
   const { theme, setTheme, mounted } = useTheme()
   const [settings, setSettings] = useState({
     logo: "",
     favicon: "",
     primaryColor: "#6366f1",
   })
+
+  const logoInputRef = useRef<HTMLInputElement>(null)
+  const faviconInputRef = useRef<HTMLInputElement>(null)
+
+  const handleFileUpload = async (file: File, type: "logo" | "favicon") => {
+    setIsUploading(type)
+    try {
+      const formData = new FormData()
+      formData.append("file", file)
+
+      const response = await fetch("/api/media", {
+        method: "POST",
+        body: formData,
+      })
+
+      if (!response.ok) {
+        const error = await response.json()
+        throw new Error(error.error || "Failed to upload file")
+      }
+
+      const media = await response.json()
+      setSettings((prev) => ({ ...prev, [type]: media.url }))
+      toast.success(`${type === "logo" ? "Logo" : "Favicon"} uploaded successfully`)
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : "Failed to upload file")
+    } finally {
+      setIsUploading(null)
+    }
+  }
 
   // Load saved settings on mount
   useEffect(() => {
@@ -97,6 +146,11 @@ export default function AppearanceSettingsPage() {
             settingsMap[s.key] = s.value
           })
           setSettings((prev) => ({ ...prev, ...settingsMap }))
+
+          // Apply favicon if saved
+          if (settingsMap.favicon) {
+            updateFavicon(settingsMap.favicon)
+          }
         }
       })
       .catch(() => {})
@@ -125,6 +179,11 @@ export default function AppearanceSettingsPage() {
 
       if (!response.ok) {
         throw new Error("Failed to save settings")
+      }
+
+      // Apply favicon immediately
+      if (settings.favicon) {
+        updateFavicon(settings.favicon)
       }
 
       toast.success("Settings saved successfully")
@@ -195,7 +254,7 @@ export default function AppearanceSettingsPage() {
           <CardTitle>Branding</CardTitle>
           <CardDescription>Logo and favicon settings</CardDescription>
         </CardHeader>
-        <CardContent className="space-y-4">
+        <CardContent className="space-y-6">
           <div className="space-y-2">
             <Label htmlFor="logo">Logo URL</Label>
             <div className="flex gap-2">
@@ -203,12 +262,45 @@ export default function AppearanceSettingsPage() {
                 id="logo"
                 value={settings.logo}
                 onChange={(e) => setSettings({ ...settings, logo: e.target.value })}
-                placeholder="https://example.com/logo.png"
+                placeholder="/uploads/logo.png or https://example.com/logo.png"
               />
-              <Button variant="outline">
-                <Upload className="h-4 w-4" />
+              <input
+                ref={logoInputRef}
+                type="file"
+                accept="image/*"
+                className="hidden"
+                onChange={(e) => {
+                  const file = e.target.files?.[0]
+                  if (file) handleFileUpload(file, "logo")
+                  e.target.value = ""
+                }}
+              />
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={() => logoInputRef.current?.click()}
+                disabled={isUploading === "logo"}
+              >
+                {isUploading === "logo" ? (
+                  <Loader2 className="h-4 w-4 animate-spin" />
+                ) : (
+                  <Upload className="h-4 w-4" />
+                )}
               </Button>
             </div>
+            {settings.logo && (
+              <div className="mt-2 p-4 border rounded-md bg-muted/50">
+                <p className="text-xs text-muted-foreground mb-2">Preview:</p>
+                <img
+                  src={settings.logo}
+                  alt="Logo preview"
+                  className="max-h-12 object-contain"
+                  onError={(e) => {
+                    e.currentTarget.style.display = "none"
+                  }}
+                />
+              </div>
+            )}
           </div>
           <div className="space-y-2">
             <Label htmlFor="favicon">Favicon URL</Label>
@@ -217,12 +309,57 @@ export default function AppearanceSettingsPage() {
                 id="favicon"
                 value={settings.favicon}
                 onChange={(e) => setSettings({ ...settings, favicon: e.target.value })}
-                placeholder="https://example.com/favicon.ico"
+                placeholder="/uploads/favicon.ico or https://example.com/favicon.ico"
               />
-              <Button variant="outline">
-                <Upload className="h-4 w-4" />
+              <input
+                ref={faviconInputRef}
+                type="file"
+                accept="image/*,.ico"
+                className="hidden"
+                onChange={(e) => {
+                  const file = e.target.files?.[0]
+                  if (file) handleFileUpload(file, "favicon")
+                  e.target.value = ""
+                }}
+              />
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={() => faviconInputRef.current?.click()}
+                disabled={isUploading === "favicon"}
+              >
+                {isUploading === "favicon" ? (
+                  <Loader2 className="h-4 w-4 animate-spin" />
+                ) : (
+                  <Upload className="h-4 w-4" />
+                )}
               </Button>
             </div>
+            <p className="text-xs text-muted-foreground">
+              Recommended: 32x32 or 64x64 pixels in .ico, .png, or .svg format
+            </p>
+            {settings.favicon && (
+              <div className="mt-2 p-4 border rounded-md bg-muted/50 flex items-center gap-3">
+                <div className="flex items-center justify-center w-8 h-8 border rounded bg-background">
+                  <img
+                    src={settings.favicon}
+                    alt="Favicon preview"
+                    className="w-6 h-6 object-contain"
+                    onError={(e) => {
+                      e.currentTarget.style.display = "none"
+                      const parent = e.currentTarget.parentElement
+                      if (parent) {
+                        const icon = document.createElement("span")
+                        icon.className = "text-muted-foreground text-xs"
+                        icon.textContent = "?"
+                        parent.appendChild(icon)
+                      }
+                    }}
+                  />
+                </div>
+                <span className="text-sm text-muted-foreground">Favicon preview</span>
+              </div>
+            )}
           </div>
         </CardContent>
       </Card>

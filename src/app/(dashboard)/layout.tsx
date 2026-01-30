@@ -2,6 +2,7 @@ import { Sidebar } from "@/components/dashboard/sidebar"
 import { MobileSidebar } from "@/components/dashboard/mobile-sidebar"
 import { Header } from "@/components/dashboard/header"
 import { PageTracker } from "@/components/analytics/page-tracker"
+import { FaviconLoader } from "@/components/providers/favicon-provider"
 
 export default function DashboardLayout({
   children,
@@ -11,6 +12,7 @@ export default function DashboardLayout({
   return (
     <div className="min-h-screen bg-background">
       <PageTracker />
+      <FaviconLoader />
       <Sidebar />
       <MobileSidebar />
       <div className="lg:pl-64 transition-all duration-300 data-[collapsed=true]:lg:pl-16">
