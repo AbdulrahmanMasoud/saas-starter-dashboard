@@ -1,0 +1,498 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// ==================== AUTH MODELS ====================
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  password      String?
+  roleId        String?
+  lastActiveAt  DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  role                    Role?     @relation(fields: [roleId], references: [id])
+  accounts                Account[]
+  sessions                Session[]
+  posts                   Post[]
+  media                   Media[]
+  notifications           Notification[]
+  notificationPreferences NotificationPreference[]
+  activityLogs            ActivityLog[]
+  subscription            Subscription?
+  pageViews               PageView[]
+
+  @@index([roleId])
+  @@index([email])
+  @@index([lastActiveAt])
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model PasswordResetToken {
+  id        String   @id @default(cuid())
+  email     String
+  token     String   @unique
+  expires   DateTime
+  createdAt DateTime @default(now())
+
+  @@index([email])
+}
+
+// ==================== PERMISSION MODELS ====================
+
+model Role {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String?
+  permissions Json
+  isDefault   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  users User[]
+}
+
+// ==================== CONTENT MODELS ====================
+
+enum PostStatus {
+  DRAFT
+  PUBLISHED
+  SCHEDULED
+  ARCHIVED
+}
+
+model Post {
+  id          String     @id @default(cuid())
+  title       String
+  slug        String     @unique
+  content     String?    @db.LongText
+  excerpt     String?    @db.Text
+  featuredImage String?
+  status      PostStatus @default(DRAFT)
+  publishedAt DateTime?
+  scheduledAt DateTime?
+  authorId    String
+  categoryId  String?
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  author      User       @relation(fields: [authorId], references: [id])
+  category    Category?  @relation(fields: [categoryId], references: [id])
+  tags        PostTag[]
+  seoMeta     SeoMeta?
+
+  @@index([authorId])
+  @@index([categoryId])
+  @@index([status])
+  @@index([slug])
+}
+
+model Category {
+  id          String     @id @default(cuid())
+  name        String
+  slug        String     @unique
+  description String?
+  parentId    String?
+  order       Int        @default(0)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  parent      Category?  @relation("CategoryHierarchy", fields: [parentId], references: [id], onDelete: SetNull)
+  children    Category[] @relation("CategoryHierarchy")
+  posts       Post[]
+
+  @@index([parentId])
+  @@index([slug])
+}
+
+model Tag {
+  id        String    @id @default(cuid())
+  name      String    @unique
+  slug      String    @unique
+  color     String?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  posts     PostTag[]
+
+  @@index([slug])
+}
+
+model PostTag {
+  postId String
+  tagId  String
+
+  post Post @relation(fields: [postId], references: [id], onDelete: Cascade)
+  tag  Tag  @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([postId, tagId])
+  @@index([tagId])
+}
+
+// ==================== MEDIA MODELS ====================
+
+model Media {
+  id        String       @id @default(cuid())
+  name      String
+  fileName  String
+  fileType  String
+  fileSize  Int
+  url       String
+  width     Int?
+  height    Int?
+  alt       String?
+  folderId  String?
+  uploadedBy String
+  createdAt DateTime     @default(now())
+  updatedAt DateTime     @updatedAt
+
+  folder    MediaFolder? @relation(fields: [folderId], references: [id], onDelete: SetNull)
+  uploader  User         @relation(fields: [uploadedBy], references: [id])
+
+  @@index([folderId])
+  @@index([uploadedBy])
+  @@index([fileType])
+}
+
+model MediaFolder {
+  id        String        @id @default(cuid())
+  name      String
+  parentId  String?
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+
+  parent    MediaFolder?  @relation("FolderHierarchy", fields: [parentId], references: [id], onDelete: SetNull)
+  children  MediaFolder[] @relation("FolderHierarchy")
+  media     Media[]
+
+  @@index([parentId])
+}
+
+// ==================== SEO MODELS ====================
+
+model SeoMeta {
+  id              String  @id @default(cuid())
+  postId          String  @unique
+  metaTitle       String?
+  metaDescription String? @db.Text
+  metaKeywords    String?
+  ogTitle         String?
+  ogDescription   String? @db.Text
+  ogImage         String?
+  twitterTitle    String?
+  twitterDescription String? @db.Text
+  twitterImage    String?
+  canonicalUrl    String?
+  noIndex         Boolean @default(false)
+  noFollow        Boolean @default(false)
+
+  post Post @relation(fields: [postId], references: [id], onDelete: Cascade)
+}
+
+model Redirect {
+  id          String   @id @default(cuid())
+  source      String   @unique
+  destination String
+  statusCode  Int      @default(301)
+  hitCount    Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([source])
+  @@index([isActive])
+}
+
+// ==================== SYSTEM MODELS ====================
+
+model Setting {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     String   @db.Text
+  group     String   @default("general")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([group])
+  @@index([key])
+}
+
+enum NotificationType {
+  INFO
+  SUCCESS
+  WARNING
+  ERROR
+}
+
+enum NotificationCategory {
+  SYSTEM
+  POST
+  USER
+  SUBSCRIPTION
+  SECURITY
+  COMMENT
+}
+
+model Notification {
+  id        String               @id @default(cuid())
+  userId    String
+  title     String
+  message   String               @db.Text
+  type      NotificationType     @default(INFO)
+  category  NotificationCategory @default(SYSTEM)
+  isRead    Boolean              @default(false)
+  link      String?
+  metadata  Json?
+  createdAt DateTime             @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([isRead])
+  @@index([category])
+  @@index([createdAt])
+}
+
+model NotificationPreference {
+  id        String               @id @default(cuid())
+  userId    String
+  category  NotificationCategory
+  email     Boolean              @default(true)
+  inApp     Boolean              @default(true)
+  createdAt DateTime             @default(now())
+  updatedAt DateTime             @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, category])
+  @@index([userId])
+}
+
+// ==================== SUBSCRIPTION MODELS ====================
+
+enum BillingPeriod {
+  MONTHLY
+  YEARLY
+}
+
+enum PlanStatus {
+  ACTIVE
+  INACTIVE
+  ARCHIVED
+}
+
+enum SubscriptionStatus {
+  TRIALING
+  ACTIVE
+  PAST_DUE
+  CANCELED
+  EXPIRED
+}
+
+model Plan {
+  id            String        @id @default(cuid())
+  name          String        @unique
+  description   String?       @db.Text
+  monthlyPrice  Decimal       @db.Decimal(10, 2)
+  yearlyPrice   Decimal       @db.Decimal(10, 2)
+  features      Json          // { maxUsers: 5, maxStorage: 10, apiCalls: 1000, featureFlags: ["sso", "api"] }
+  trialDays     Int           @default(0)
+  status        PlanStatus    @default(ACTIVE)
+  sortOrder     Int           @default(0)
+  isPopular     Boolean       @default(false)
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  subscriptions Subscription[]
+
+  @@index([status])
+  @@index([sortOrder])
+}
+
+model Subscription {
+  id                 String             @id @default(cuid())
+  userId             String             @unique
+  planId             String
+  status             SubscriptionStatus @default(ACTIVE)
+  billingPeriod      BillingPeriod      @default(MONTHLY)
+  currentPeriodStart DateTime
+  currentPeriodEnd   DateTime
+  trialStart         DateTime?
+  trialEnd           DateTime?
+  canceledAt         DateTime?
+  cancelReason       String?
+  createdAt          DateTime           @default(now())
+  updatedAt          DateTime           @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  plan Plan @relation(fields: [planId], references: [id], onDelete: Restrict)
+
+  @@index([planId])
+  @@index([status])
+  @@index([currentPeriodEnd])
+}
+
+model ActivityLog {
+  id          String   @id @default(cuid())
+  userId      String?
+  action      String
+  entity      String
+  entityId    String?
+  description String?  @db.Text
+  metadata    Json?
+  ipAddress   String?
+  userAgent   String?
+  createdAt   DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+  @@index([action])
+  @@index([entity])
+  @@index([createdAt])
+}
+
+// ==================== ANALYTICS MODELS ====================
+
+model PageView {
+  id        String   @id @default(cuid())
+  path      String
+  userId    String?
+  sessionId String?
+  userAgent String?
+  ipAddress String?
+  referrer  String?
+  createdAt DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([createdAt])
+  @@index([userId])
+  @@index([sessionId])
+  @@index([path])
+}
+
+// ==================== EMAIL MODELS ====================
+
+enum EmailStatus {
+  PENDING
+  SENT
+  FAILED
+  BOUNCED
+}
+
+model EmailTemplate {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  slug        String   @unique
+  subject     String
+  htmlContent String   @db.Text
+  textContent String?  @db.Text
+  variables   Json?    // { "name": "string", "resetLink": "string" }
+  description String?
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  emailLogs EmailLog[]
+
+  @@index([slug])
+  @@index([isActive])
+}
+
+model EmailLog {
+  id          String      @id @default(cuid())
+  templateId  String?
+  to          String
+  cc          String?
+  bcc         String?
+  subject     String
+  htmlContent String      @db.Text
+  textContent String?     @db.Text
+  status      EmailStatus @default(PENDING)
+  error       String?     @db.Text
+  sentAt      DateTime?
+  attempts    Int         @default(0)
+  metadata    Json?       // Additional data like user ID, trigger event, etc.
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  template EmailTemplate? @relation(fields: [templateId], references: [id], onDelete: SetNull)
+
+  @@index([templateId])
+  @@index([status])
+  @@index([to])
+  @@index([createdAt])
+}
+
+// ==================== BACKUP MODELS ====================
+
+enum BackupStatus {
+  PENDING
+  COMPLETED
+  FAILED
+}
+
+model Backup {
+  id          String       @id @default(cuid())
+  name        String
+  fileName    String
+  fileSize    Int
+  status      BackupStatus @default(PENDING)
+  tables      Json         // List of tables included in backup
+  recordCount Int          @default(0)
+  error       String?      @db.Text
+  createdBy   String
+  createdAt   DateTime     @default(now())
+
+  @@index([status])
+  @@index([createdAt])
+}

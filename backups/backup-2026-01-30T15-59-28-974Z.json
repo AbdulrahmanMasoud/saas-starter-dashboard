@@ -1,0 +1,2316 @@
+{
+  "version": "1.0",
+  "createdAt": "2026-01-30T15:59:28.993Z",
+  "createdBy": "admin@example.com",
+  "data": {
+    "users": [
+      {
+        "id": "cmkzpkx3x0005gnjjydgpnhj2",
+        "name": "Admin User",
+        "email": "admin@example.com",
+        "roleId": "cmkzpkx1f0000gnjjabybkaex",
+        "createdAt": "2026-01-29T17:08:59.421Z"
+      },
+      {
+        "id": "cmkzpkx5o0007gnjji9wp6qly",
+        "name": "Demo User 1",
+        "email": "user1@example.com",
+        "roleId": "cmkzpkx1i0002gnjjs5l7kb6h",
+        "createdAt": "2026-01-29T17:08:59.484Z"
+      },
+      {
+        "id": "cmkzpkx5p0009gnjjqbsz8r6r",
+        "name": "Demo User 2",
+        "email": "user2@example.com",
+        "roleId": "cmkzpkx1i0001gnjj67xc140z",
+        "createdAt": "2026-01-29T17:08:59.486Z"
+      },
+      {
+        "id": "cmkzpkx5v000bgnjjf36p00ep",
+        "name": "Demo User 3",
+        "email": "user3@example.com",
+        "roleId": "cmkzpkx1j0003gnjjfrnx3ril",
+        "createdAt": "2026-01-29T17:08:59.492Z"
+      },
+      {
+        "id": "cmkzpkx5x000dgnjjohm8x7nf",
+        "name": "Demo User 4",
+        "email": "user4@example.com",
+        "roleId": "cmkzpkx1f0000gnjjabybkaex",
+        "createdAt": "2026-01-29T17:08:59.493Z"
+      },
+      {
+        "id": "cmkzpkx5y000fgnjjdilz49ty",
+        "name": "Demo User 5",
+        "email": "user5@example.com",
+        "roleId": "cmkzpkx1i0002gnjjs5l7kb6h",
+        "createdAt": "2026-01-29T17:08:59.494Z"
+      },
+      {
+        "id": "cmkzpkx5z000hgnjjrnbfy4o8",
+        "name": "Demo User 6",
+        "email": "user6@example.com",
+        "roleId": "cmkzpkx1i0001gnjj67xc140z",
+        "createdAt": "2026-01-29T17:08:59.495Z"
+      },
+      {
+        "id": "cmkzpkx60000jgnjjcqx2hjf6",
+        "name": "Demo User 7",
+        "email": "user7@example.com",
+        "roleId": "cmkzpkx1j0003gnjjfrnx3ril",
+        "createdAt": "2026-01-29T17:08:59.496Z"
+      },
+      {
+        "id": "cmkzpkx60000lgnjj1sue20bu",
+        "name": "Demo User 8",
+        "email": "user8@example.com",
+        "roleId": "cmkzpkx1f0000gnjjabybkaex",
+        "createdAt": "2026-01-29T17:08:59.497Z"
+      },
+      {
+        "id": "cmkzpkx62000ngnjj755hqpby",
+        "name": "Demo User 9",
+        "email": "user9@example.com",
+        "roleId": "cmkzpkx1i0002gnjjs5l7kb6h",
+        "createdAt": "2026-01-29T17:08:59.498Z"
+      },
+      {
+        "id": "cmkzpkx62000pgnjjw19ouzll",
+        "name": "Demo User 10",
+        "email": "user10@example.com",
+        "roleId": "cmkzpkx1i0001gnjj67xc140z",
+        "createdAt": "2026-01-29T17:08:59.499Z"
+      },
+      {
+        "id": "cmkzpkx63000rgnjjkj2mi0d0",
+        "name": "Demo User 11",
+        "email": "user11@example.com",
+        "roleId": "cmkzpkx1j0003gnjjfrnx3ril",
+        "createdAt": "2026-01-29T17:08:59.499Z"
+      },
+      {
+        "id": "cmkzpkx64000tgnjjvqw851fa",
+        "name": "Demo User 12",
+        "email": "user12@example.com",
+        "roleId": "cmkzpkx1f0000gnjjabybkaex",
+        "createdAt": "2026-01-29T17:08:59.500Z"
+      },
+      {
+        "id": "cmkzpkx65000vgnjjopxmk4q0",
+        "name": "Demo User 13",
+        "email": "user13@example.com",
+        "roleId": "cmkzpkx1i0002gnjjs5l7kb6h",
+        "createdAt": "2026-01-29T17:08:59.502Z"
+      },
+      {
+        "id": "cmkzpkx66000xgnjj7k6i41rz",
+        "name": "Demo User 14",
+        "email": "user14@example.com",
+        "roleId": "cmkzpkx1i0001gnjj67xc140z",
+        "createdAt": "2026-01-29T17:08:59.503Z"
+      },
+      {
+        "id": "cmkzpkx67000zgnjjkf5q7w4l",
+        "name": "Demo User 15",
+        "email": "user15@example.com",
+        "roleId": "cmkzpkx1j0003gnjjfrnx3ril",
+        "createdAt": "2026-01-29T17:08:59.503Z"
+      },
+      {
+        "id": "cmkzpkx680011gnjjpmvczdxh",
+        "name": "Demo User 16",
+        "email": "user16@example.com",
+        "roleId": "cmkzpkx1f0000gnjjabybkaex",
+        "createdAt": "2026-01-29T17:08:59.504Z"
+      },
+      {
+        "id": "cmkzpkx680013gnjjgtggy7mi",
+        "name": "Demo User 17",
+        "email": "user17@example.com",
+        "roleId": "cmkzpkx1i0002gnjjs5l7kb6h",
+        "createdAt": "2026-01-29T17:08:59.505Z"
+      },
+      {
+        "id": "cmkzpkx690015gnjjxu91x9rq",
+        "name": "Demo User 18",
+        "email": "user18@example.com",
+        "roleId": "cmkzpkx1i0001gnjj67xc140z",
+        "createdAt": "2026-01-29T17:08:59.505Z"
+      },
+      {
+        "id": "cmkzpkx6a0017gnjj79q4kzvu",
+        "name": "Demo User 19",
+        "email": "user19@example.com",
+        "roleId": "cmkzpkx1j0003gnjjfrnx3ril",
+        "createdAt": "2026-01-29T17:08:59.506Z"
+      },
+      {
+        "id": "cmkzpkx6a0019gnjj9g6rbecu",
+        "name": "Demo User 20",
+        "email": "user20@example.com",
+        "roleId": "cmkzpkx1f0000gnjjabybkaex",
+        "createdAt": "2026-01-29T17:08:59.507Z"
+      },
+      {
+        "id": "cmkzpkx6b001bgnjjxwd993e4",
+        "name": "Demo User 21",
+        "email": "user21@example.com",
+        "roleId": "cmkzpkx1i0002gnjjs5l7kb6h",
+        "createdAt": "2026-01-29T17:08:59.507Z"
+      },
+      {
+        "id": "cmkzpkx6c001dgnjjwlj14stn",
+        "name": "Demo User 22",
+        "email": "user22@example.com",
+        "roleId": "cmkzpkx1i0001gnjj67xc140z",
+        "createdAt": "2026-01-29T17:08:59.508Z"
+      },
+      {
+        "id": "cmkzpkx6c001fgnjjkmjofwq5",
+        "name": "Demo User 23",
+        "email": "user23@example.com",
+        "roleId": "cmkzpkx1j0003gnjjfrnx3ril",
+        "createdAt": "2026-01-29T17:08:59.509Z"
+      },
+      {
+        "id": "cmkzpkx6d001hgnjjfkunh8ic",
+        "name": "Demo User 24",
+        "email": "user24@example.com",
+        "roleId": "cmkzpkx1f0000gnjjabybkaex",
+        "createdAt": "2026-01-29T17:08:59.509Z"
+      },
+      {
+        "id": "cmkzpkx6e001jgnjj4l3wa1al",
+        "name": "Demo User 25",
+        "email": "user25@example.com",
+        "roleId": "cmkzpkx1i0002gnjjs5l7kb6h",
+        "createdAt": "2026-01-29T17:08:59.510Z"
+      },
+      {
+        "id": "cmkzpkx6e001lgnjjc0psfvhd",
+        "name": "Demo User 26",
+        "email": "user26@example.com",
+        "roleId": "cmkzpkx1i0001gnjj67xc140z",
+        "createdAt": "2026-01-29T17:08:59.510Z"
+      },
+      {
+        "id": "cmkzpkx6f001ngnjjwt0bm125",
+        "name": "Demo User 27",
+        "email": "user27@example.com",
+        "roleId": "cmkzpkx1j0003gnjjfrnx3ril",
+        "createdAt": "2026-01-29T17:08:59.511Z"
+      },
+      {
+        "id": "cmkzpkx6f001pgnjj7s644axy",
+        "name": "Demo User 28",
+        "email": "user28@example.com",
+        "roleId": "cmkzpkx1f0000gnjjabybkaex",
+        "createdAt": "2026-01-29T17:08:59.512Z"
+      },
+      {
+        "id": "cmkzpkx6g001rgnjjdh77dawm",
+        "name": "Demo User 29",
+        "email": "user29@example.com",
+        "roleId": "cmkzpkx1i0002gnjjs5l7kb6h",
+        "createdAt": "2026-01-29T17:08:59.512Z"
+      },
+      {
+        "id": "cmkzpkx6g001tgnjjop44yrb1",
+        "name": "Demo User 30",
+        "email": "user30@example.com",
+        "roleId": "cmkzpkx1i0001gnjj67xc140z",
+        "createdAt": "2026-01-29T17:08:59.513Z"
+      },
+      {
+        "id": "cmkzpkx6h001vgnjjqkdfsw6b",
+        "name": "Demo User 31",
+        "email": "user31@example.com",
+        "roleId": "cmkzpkx1j0003gnjjfrnx3ril",
+        "createdAt": "2026-01-29T17:08:59.514Z"
+      },
+      {
+        "id": "cmkzpkx6i001xgnjjcezwp61t",
+        "name": "Demo User 32",
+        "email": "user32@example.com",
+        "roleId": "cmkzpkx1f0000gnjjabybkaex",
+        "createdAt": "2026-01-29T17:08:59.514Z"
+      },
+      {
+        "id": "cmkzpkx6j001zgnjjx27bdmgq",
+        "name": "Demo User 33",
+        "email": "user33@example.com",
+        "roleId": "cmkzpkx1i0002gnjjs5l7kb6h",
+        "createdAt": "2026-01-29T17:08:59.515Z"
+      },
+      {
+        "id": "cmkzpkx6j0021gnjje61slw7s",
+        "name": "Demo User 34",
+        "email": "user34@example.com",
+        "roleId": "cmkzpkx1i0001gnjj67xc140z",
+        "createdAt": "2026-01-29T17:08:59.516Z"
+      },
+      {
+        "id": "cmkzpkx6k0023gnjjmt2odt73",
+        "name": "Demo User 35",
+        "email": "user35@example.com",
+        "roleId": "cmkzpkx1j0003gnjjfrnx3ril",
+        "createdAt": "2026-01-29T17:08:59.516Z"
+      },
+      {
+        "id": "cmkzpkx6l0025gnjjsgeiop3d",
+        "name": "Demo User 36",
+        "email": "user36@example.com",
+        "roleId": "cmkzpkx1f0000gnjjabybkaex",
+        "createdAt": "2026-01-29T17:08:59.517Z"
+      },
+      {
+        "id": "cmkzpkx6l0027gnjj4gqhnifi",
+        "name": "Demo User 37",
+        "email": "user37@example.com",
+        "roleId": "cmkzpkx1i0002gnjjs5l7kb6h",
+        "createdAt": "2026-01-29T17:08:59.518Z"
+      },
+      {
+        "id": "cmkzpkx6m0029gnjj1zzpwspw",
+        "name": "Demo User 38",
+        "email": "user38@example.com",
+        "roleId": "cmkzpkx1i0001gnjj67xc140z",
+        "createdAt": "2026-01-29T17:08:59.519Z"
+      },
+      {
+        "id": "cmkzpkx6n002bgnjjykbk3hn9",
+        "name": "Demo User 39",
+        "email": "user39@example.com",
+        "roleId": "cmkzpkx1j0003gnjjfrnx3ril",
+        "createdAt": "2026-01-29T17:08:59.519Z"
+      },
+      {
+        "id": "cmkzpkx6o002dgnjjairfwj82",
+        "name": "Demo User 40",
+        "email": "user40@example.com",
+        "roleId": "cmkzpkx1f0000gnjjabybkaex",
+        "createdAt": "2026-01-29T17:08:59.520Z"
+      },
+      {
+        "id": "cmkzpkx6o002fgnjjhtrrp2ps",
+        "name": "Demo User 41",
+        "email": "user41@example.com",
+        "roleId": "cmkzpkx1i0002gnjjs5l7kb6h",
+        "createdAt": "2026-01-29T17:08:59.521Z"
+      },
+      {
+        "id": "cmkzpkx6p002hgnjj4al6gblm",
+        "name": "Demo User 42",
+        "email": "user42@example.com",
+        "roleId": "cmkzpkx1i0001gnjj67xc140z",
+        "createdAt": "2026-01-29T17:08:59.521Z"
+      },
+      {
+        "id": "cmkzpkx6p002jgnjjsixfpgld",
+        "name": "Demo User 43",
+        "email": "user43@example.com",
+        "roleId": "cmkzpkx1j0003gnjjfrnx3ril",
+        "createdAt": "2026-01-29T17:08:59.522Z"
+      },
+      {
+        "id": "cmkzpkx6q002lgnjjh9lghyy8",
+        "name": "Demo User 44",
+        "email": "user44@example.com",
+        "roleId": "cmkzpkx1f0000gnjjabybkaex",
+        "createdAt": "2026-01-29T17:08:59.522Z"
+      },
+      {
+        "id": "cmkzpkx6r002ngnjj4qg9q1uo",
+        "name": "Demo User 45",
+        "email": "user45@example.com",
+        "roleId": "cmkzpkx1i0002gnjjs5l7kb6h",
+        "createdAt": "2026-01-29T17:08:59.523Z"
+      },
+      {
+        "id": "cmkzpkx6r002pgnjj1iueufg6",
+        "name": "Demo User 46",
+        "email": "user46@example.com",
+        "roleId": "cmkzpkx1i0001gnjj67xc140z",
+        "createdAt": "2026-01-29T17:08:59.524Z"
+      },
+      {
+        "id": "cmkzpkx6s002rgnjjwek9q669",
+        "name": "Demo User 47",
+        "email": "user47@example.com",
+        "roleId": "cmkzpkx1j0003gnjjfrnx3ril",
+        "createdAt": "2026-01-29T17:08:59.524Z"
+      },
+      {
+        "id": "cmkzpkx6t002tgnjj0t91gbec",
+        "name": "Demo User 48",
+        "email": "user48@example.com",
+        "roleId": "cmkzpkx1f0000gnjjabybkaex",
+        "createdAt": "2026-01-29T17:08:59.525Z"
+      },
+      {
+        "id": "cmkzpkx6t002vgnjjwio0r1qx",
+        "name": "Demo User 49",
+        "email": "user49@example.com",
+        "roleId": "cmkzpkx1i0002gnjjs5l7kb6h",
+        "createdAt": "2026-01-29T17:08:59.526Z"
+      },
+      {
+        "id": "cmkzpkx6u002xgnjjyk4sy5b5",
+        "name": "Demo User 50",
+        "email": "user50@example.com",
+        "roleId": "cmkzpkx1i0001gnjj67xc140z",
+        "createdAt": "2026-01-29T17:08:59.526Z"
+      },
+      {
+        "id": "cml10gmo3007k9g2k9v7ctl4g",
+        "name": "Willow Frankcc",
+        "email": "mumev@mailinator.com",
+        "roleId": "cmkzpkx1i0001gnjj67xc140z",
+        "createdAt": "2026-01-30T15:01:21.219Z"
+      }
+    ],
+    "roles": [
+      {
+        "id": "cmkzpkx1f0000gnjjabybkaex",
+        "name": "Admin",
+        "description": "Full access to all features",
+        "permissions": [
+          "users.view",
+          "users.create",
+          "users.edit",
+          "users.delete",
+          "posts.view",
+          "posts.create",
+          "posts.edit",
+          "posts.edit_all",
+          "posts.delete",
+          "posts.delete_all",
+          "posts.publish",
+          "categories.manage",
+          "tags.manage",
+          "media.view",
+          "media.upload",
+          "media.delete",
+          "media.delete_all",
+          "seo.manage",
+          "redirects.manage",
+          "settings.view",
+          "settings.edit",
+          "roles.view",
+          "roles.manage",
+          "activity.view",
+          "plans.view",
+          "plans.create",
+          "plans.edit",
+          "plans.delete",
+          "subscriptions.view",
+          "subscriptions.create",
+          "subscriptions.edit",
+          "subscriptions.cancel"
+        ],
+        "isDefault": false,
+        "createdAt": "2026-01-29T17:08:59.332Z",
+        "updatedAt": "2026-01-29T17:08:59.332Z"
+      },
+      {
+        "id": "cmkzpkx1i0001gnjj67xc140z",
+        "name": "Author",
+        "description": "Can create and manage own content",
+        "permissions": [
+          "posts.view",
+          "posts.create",
+          "posts.edit",
+          "posts.delete",
+          "media.view",
+          "media.upload",
+          "media.delete",
+          "tags.manage",
+          "plans.view"
+        ],
+        "isDefault": false,
+        "createdAt": "2026-01-29T17:08:59.332Z",
+        "updatedAt": "2026-01-29T17:08:59.332Z"
+      },
+      {
+        "id": "cmkzpkx1i0002gnjjs5l7kb6h",
+        "name": "Editor",
+        "description": "Can manage content and media",
+        "permissions": [
+          "posts.view",
+          "posts.create",
+          "posts.edit",
+          "posts.edit_all",
+          "posts.delete",
+          "posts.publish",
+          "categories.manage",
+          "tags.manage",
+          "media.view",
+          "media.upload",
+          "media.delete",
+          "seo.manage",
+          "plans.view",
+          "subscriptions.view"
+        ],
+        "isDefault": false,
+        "createdAt": "2026-01-29T17:08:59.332Z",
+        "updatedAt": "2026-01-29T17:08:59.332Z"
+      },
+      {
+        "id": "cmkzpkx1j0003gnjjfrnx3ril",
+        "name": "User",
+        "description": "Basic user access",
+        "permissions": [
+          "posts.view",
+          "media.view"
+        ],
+        "isDefault": true,
+        "createdAt": "2026-01-29T17:08:59.332Z",
+        "updatedAt": "2026-01-29T17:08:59.332Z"
+      }
+    ],
+    "posts": [
+      {
+        "id": "cmkzpkx7h0038gnjjlam0iiy0",
+        "title": "Getting Started with Next.js 16",
+        "slug": "getting-started-with-nextjs-16",
+        "content": "<h2>Introduction</h2><p>Next.js 16 brings exciting new features...</p>",
+        "excerpt": "Learn how to build modern web applications with Next.js 16",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.546Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.549Z",
+        "updatedAt": "2026-01-29T17:08:59.549Z"
+      },
+      {
+        "id": "cmkzpkx7o003agnjjbia860o9",
+        "title": "Mastering React Server Components",
+        "slug": "mastering-react-server-components",
+        "content": "<h2>What are Server Components?</h2><p>React Server Components allow...</p>",
+        "excerpt": "A deep dive into React Server Components and their benefits",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.556Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.556Z",
+        "updatedAt": "2026-01-29T17:08:59.556Z"
+      },
+      {
+        "id": "cmkzpkx7q003cgnjj3728s3y6",
+        "title": "Building Beautiful UIs with Tailwind CSS",
+        "slug": "building-beautiful-uis-with-tailwind",
+        "content": "<h2>Why Tailwind CSS?</h2><p>Tailwind CSS is a utility-first framework...</p>",
+        "excerpt": "Tips and tricks for creating stunning interfaces",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.558Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002ygnjjug2n1a5e",
+        "createdAt": "2026-01-29T17:08:59.558Z",
+        "updatedAt": "2026-01-29T17:08:59.558Z"
+      },
+      {
+        "id": "cmkzpkx7s003egnjj97cvxiw2",
+        "title": "TypeScript Best Practices in 2024",
+        "slug": "typescript-best-practices-2024",
+        "content": "<h2>Type Safety Matters</h2><p>TypeScript provides excellent type safety...</p>",
+        "excerpt": "Essential TypeScript patterns for modern development",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.559Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.560Z",
+        "updatedAt": "2026-01-29T17:08:59.560Z"
+      },
+      {
+        "id": "cmkzpkx7t003ggnjjz4mmi4jo",
+        "title": "The Future of Web Development",
+        "slug": "future-of-web-development",
+        "content": "<h2>Looking Ahead</h2><p>Web development continues to evolve...</p>",
+        "excerpt": "Trends and predictions for the web development industry",
+        "featuredImage": null,
+        "status": "DRAFT",
+        "publishedAt": null,
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.561Z",
+        "updatedAt": "2026-01-29T17:08:59.561Z"
+      },
+      {
+        "id": "cmkzpkx7v003ignjjzjp2ptaw",
+        "title": "Getting Started with Next.js 16 - Part 5",
+        "slug": "getting-started-with-nextjs-16-5",
+        "content": "<h2>Introduction</h2><p>Next.js 16 brings exciting new features...</p>",
+        "excerpt": "Learn how to build modern web applications with Next.js 16",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.563Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.564Z",
+        "updatedAt": "2026-01-29T17:08:59.564Z"
+      },
+      {
+        "id": "cmkzpkx7y003kgnjjwz85z881",
+        "title": "Mastering React Server Components - Part 6",
+        "slug": "mastering-react-server-components-6",
+        "content": "<h2>What are Server Components?</h2><p>React Server Components allow...</p>",
+        "excerpt": "A deep dive into React Server Components and their benefits",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.566Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.566Z",
+        "updatedAt": "2026-01-29T17:08:59.566Z"
+      },
+      {
+        "id": "cmkzpkx80003mgnjj0c618gdx",
+        "title": "Building Beautiful UIs with Tailwind CSS - Part 7",
+        "slug": "building-beautiful-uis-with-tailwind-7",
+        "content": "<h2>Why Tailwind CSS?</h2><p>Tailwind CSS is a utility-first framework...</p>",
+        "excerpt": "Tips and tricks for creating stunning interfaces",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.568Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002ygnjjug2n1a5e",
+        "createdAt": "2026-01-29T17:08:59.568Z",
+        "updatedAt": "2026-01-29T17:08:59.568Z"
+      },
+      {
+        "id": "cmkzpkx81003ognjjk22qvw2l",
+        "title": "TypeScript Best Practices in 2024 - Part 8",
+        "slug": "typescript-best-practices-2024-8",
+        "content": "<h2>Type Safety Matters</h2><p>TypeScript provides excellent type safety...</p>",
+        "excerpt": "Essential TypeScript patterns for modern development",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.569Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.570Z",
+        "updatedAt": "2026-01-29T17:08:59.570Z"
+      },
+      {
+        "id": "cmkzpkx82003qgnjjjl8zjfly",
+        "title": "The Future of Web Development - Part 9",
+        "slug": "future-of-web-development-9",
+        "content": "<h2>Looking Ahead</h2><p>Web development continues to evolve...</p>",
+        "excerpt": "Trends and predictions for the web development industry",
+        "featuredImage": null,
+        "status": "DRAFT",
+        "publishedAt": null,
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.571Z",
+        "updatedAt": "2026-01-29T17:08:59.571Z"
+      },
+      {
+        "id": "cmkzpkx87003sgnjjfaolvdw0",
+        "title": "Getting Started with Next.js 16 - Part 10",
+        "slug": "getting-started-with-nextjs-16-10",
+        "content": "<h2>Introduction</h2><p>Next.js 16 brings exciting new features...</p>",
+        "excerpt": "Learn how to build modern web applications with Next.js 16",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.575Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.576Z",
+        "updatedAt": "2026-01-29T17:08:59.576Z"
+      },
+      {
+        "id": "cmkzpkx89003ugnjjzdugdl7l",
+        "title": "Mastering React Server Components - Part 11",
+        "slug": "mastering-react-server-components-11",
+        "content": "<h2>What are Server Components?</h2><p>React Server Components allow...</p>",
+        "excerpt": "A deep dive into React Server Components and their benefits",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.577Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.578Z",
+        "updatedAt": "2026-01-29T17:08:59.578Z"
+      },
+      {
+        "id": "cmkzpkx8d003wgnjjaqbx8nma",
+        "title": "Building Beautiful UIs with Tailwind CSS - Part 12",
+        "slug": "building-beautiful-uis-with-tailwind-12",
+        "content": "<h2>Why Tailwind CSS?</h2><p>Tailwind CSS is a utility-first framework...</p>",
+        "excerpt": "Tips and tricks for creating stunning interfaces",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.581Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002ygnjjug2n1a5e",
+        "createdAt": "2026-01-29T17:08:59.581Z",
+        "updatedAt": "2026-01-29T17:08:59.581Z"
+      },
+      {
+        "id": "cmkzpkx8e003ygnjj3i54son5",
+        "title": "TypeScript Best Practices in 2024 - Part 13",
+        "slug": "typescript-best-practices-2024-13",
+        "content": "<h2>Type Safety Matters</h2><p>TypeScript provides excellent type safety...</p>",
+        "excerpt": "Essential TypeScript patterns for modern development",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.582Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.583Z",
+        "updatedAt": "2026-01-29T17:08:59.583Z"
+      },
+      {
+        "id": "cmkzpkx8f0040gnjj0d7tys0l",
+        "title": "The Future of Web Development - Part 14",
+        "slug": "future-of-web-development-14",
+        "content": "<h2>Looking Ahead</h2><p>Web development continues to evolve...</p>",
+        "excerpt": "Trends and predictions for the web development industry",
+        "featuredImage": null,
+        "status": "DRAFT",
+        "publishedAt": null,
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.584Z",
+        "updatedAt": "2026-01-29T17:08:59.584Z"
+      },
+      {
+        "id": "cmkzpkx8i0042gnjjeeloaq06",
+        "title": "Getting Started with Next.js 16 - Part 15",
+        "slug": "getting-started-with-nextjs-16-15",
+        "content": "<h2>Introduction</h2><p>Next.js 16 brings exciting new features...</p>",
+        "excerpt": "Learn how to build modern web applications with Next.js 16",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.585Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.586Z",
+        "updatedAt": "2026-01-29T17:08:59.586Z"
+      },
+      {
+        "id": "cmkzpkx8j0044gnjj7zm79lab",
+        "title": "Mastering React Server Components - Part 16",
+        "slug": "mastering-react-server-components-16",
+        "content": "<h2>What are Server Components?</h2><p>React Server Components allow...</p>",
+        "excerpt": "A deep dive into React Server Components and their benefits",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.587Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.588Z",
+        "updatedAt": "2026-01-29T17:08:59.588Z"
+      },
+      {
+        "id": "cmkzpkx8l0046gnjjfijeyiz2",
+        "title": "Building Beautiful UIs with Tailwind CSS - Part 17",
+        "slug": "building-beautiful-uis-with-tailwind-17",
+        "content": "<h2>Why Tailwind CSS?</h2><p>Tailwind CSS is a utility-first framework...</p>",
+        "excerpt": "Tips and tricks for creating stunning interfaces",
+        "featuredImage": null,
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-29T17:08:59.589Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002ygnjjug2n1a5e",
+        "createdAt": "2026-01-29T17:08:59.590Z",
+        "updatedAt": "2026-01-29T17:08:59.590Z"
+      },
+      {
+        "id": "cmkzpkx8m0048gnjjlvmuupfw",
+        "title": "TypeScript Best Practices in 2024 - Part 18",
+        "slug": "typescript-best-practices-2024-18",
+        "content": "<h2>Type Safety Matters</h2><p>TypeScript provides excellent type safety...</p><p>dfdfdf</p>",
+        "excerpt": "Essential TypeScript patterns for modern development",
+        "featuredImage": "",
+        "status": "DRAFT",
+        "publishedAt": "2026-01-29T17:08:59.590Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.591Z",
+        "updatedAt": "2026-01-30T13:57:27.292Z"
+      },
+      {
+        "id": "cmkzpkx8o004agnjj3fac6cem",
+        "title": "The Future of Web Development - Part 19",
+        "slug": "future-of-web-development-19",
+        "content": "<h2>Looking Ahead</h2><p>Web development continues to evolve...</p>",
+        "excerpt": "Trends and predictions for the web development industry",
+        "featuredImage": null,
+        "status": "DRAFT",
+        "publishedAt": null,
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002zgnjj28v33sfi",
+        "createdAt": "2026-01-29T17:08:59.592Z",
+        "updatedAt": "2026-01-29T17:08:59.592Z"
+      },
+      {
+        "id": "cml1077rp005i9g2kjewsised",
+        "title": "Excepteur tempora vo",
+        "slug": "sdsdsd-sdsdsss-ss",
+        "content": "<p>Dolor quia rerum est.</p>",
+        "excerpt": "Ut minus iusto eos s",
+        "featuredImage": "Tempor odit non adip",
+        "status": "PUBLISHED",
+        "publishedAt": "2026-01-30T14:54:02.004Z",
+        "scheduledAt": null,
+        "authorId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "categoryId": "cmkzpkx6v002ygnjjug2n1a5e",
+        "createdAt": "2026-01-30T14:54:02.005Z",
+        "updatedAt": "2026-01-30T14:54:11.141Z"
+      }
+    ],
+    "categories": [
+      {
+        "id": "cmkzpkx6v002ygnjjug2n1a5e",
+        "name": "Design",
+        "slug": "design",
+        "description": "UI/UX design, graphics, and creativity",
+        "parentId": null,
+        "order": 0,
+        "createdAt": "2026-01-29T17:08:59.527Z",
+        "updatedAt": "2026-01-29T17:08:59.527Z"
+      },
+      {
+        "id": "cmkzpkx6v002zgnjj28v33sfi",
+        "name": "Technology",
+        "slug": "technology",
+        "description": "Tech news, reviews, and tutorials",
+        "parentId": null,
+        "order": 0,
+        "createdAt": "2026-01-29T17:08:59.527Z",
+        "updatedAt": "2026-01-29T17:08:59.527Z"
+      },
+      {
+        "id": "cmkzpkx6v0030gnjj24a6jum8",
+        "name": "Business",
+        "slug": "business",
+        "description": "Business news and strategies",
+        "parentId": null,
+        "order": 0,
+        "createdAt": "2026-01-29T17:08:59.527Z",
+        "updatedAt": "2026-01-29T17:08:59.527Z"
+      },
+      {
+        "id": "cmkzpkx6v0031gnjjk5c1iblp",
+        "name": "Lifestyle",
+        "slug": "lifestyle",
+        "description": "Life tips and personal development",
+        "parentId": null,
+        "order": 0,
+        "createdAt": "2026-01-29T17:08:59.527Z",
+        "updatedAt": "2026-01-29T17:08:59.527Z"
+      }
+    ],
+    "tags": [
+      {
+        "id": "cmkzpkx720032gnjjbwqiezs4",
+        "name": "React",
+        "slug": "react",
+        "color": "#61dafb",
+        "createdAt": "2026-01-29T17:08:59.534Z",
+        "updatedAt": "2026-01-29T17:08:59.534Z"
+      },
+      {
+        "id": "cmkzpkx720033gnjjwp4jkzsz",
+        "name": "JavaScript",
+        "slug": "javascript",
+        "color": "#f7df1e",
+        "createdAt": "2026-01-29T17:08:59.534Z",
+        "updatedAt": "2026-01-29T17:08:59.534Z"
+      },
+      {
+        "id": "cmkzpkx720034gnjjx2har3sp",
+        "name": "Next.js",
+        "slug": "nextjs",
+        "color": "#000000",
+        "createdAt": "2026-01-29T17:08:59.534Z",
+        "updatedAt": "2026-01-29T17:08:59.534Z"
+      },
+      {
+        "id": "cmkzpkx720035gnjjsh5tw1cx",
+        "name": "TypeScriptt",
+        "slug": "typescript",
+        "color": "#3178c6",
+        "createdAt": "2026-01-29T17:08:59.534Z",
+        "updatedAt": "2026-01-30T14:37:36.590Z"
+      },
+      {
+        "id": "cmkzpkx740036gnjjweuqbj1a",
+        "name": "Tailwind CSS",
+        "slug": "tailwindcss",
+        "color": "#06b6d4",
+        "createdAt": "2026-01-29T17:08:59.534Z",
+        "updatedAt": "2026-01-29T17:08:59.534Z"
+      },
+      {
+        "id": "cml0y73tw004k9g2k62x698ka",
+        "name": "tag",
+        "slug": "tah",
+        "color": "#6366f1",
+        "createdAt": "2026-01-30T13:57:57.669Z",
+        "updatedAt": "2026-01-30T13:57:57.669Z"
+      },
+      {
+        "id": "cml0zvfx5004y9g2kqmv8r6le",
+        "name": "Test",
+        "slug": "test",
+        "color": "#6366f1",
+        "createdAt": "2026-01-30T14:44:52.698Z",
+        "updatedAt": "2026-01-30T14:44:52.698Z"
+      }
+    ],
+    "postTags": [
+      {
+        "postId": "cmkzpkx7o003agnjjbia860o9",
+        "tagId": "cmkzpkx720032gnjjbwqiezs4"
+      },
+      {
+        "postId": "cmkzpkx7t003ggnjjz4mmi4jo",
+        "tagId": "cmkzpkx720032gnjjbwqiezs4"
+      },
+      {
+        "postId": "cmkzpkx7y003kgnjjwz85z881",
+        "tagId": "cmkzpkx720032gnjjbwqiezs4"
+      },
+      {
+        "postId": "cmkzpkx82003qgnjjjl8zjfly",
+        "tagId": "cmkzpkx720032gnjjbwqiezs4"
+      },
+      {
+        "postId": "cmkzpkx89003ugnjjzdugdl7l",
+        "tagId": "cmkzpkx720032gnjjbwqiezs4"
+      },
+      {
+        "postId": "cmkzpkx8f0040gnjj0d7tys0l",
+        "tagId": "cmkzpkx720032gnjjbwqiezs4"
+      },
+      {
+        "postId": "cmkzpkx8j0044gnjj7zm79lab",
+        "tagId": "cmkzpkx720032gnjjbwqiezs4"
+      },
+      {
+        "postId": "cmkzpkx8o004agnjj3fac6cem",
+        "tagId": "cmkzpkx720032gnjjbwqiezs4"
+      },
+      {
+        "postId": "cmkzpkx7h0038gnjjlam0iiy0",
+        "tagId": "cmkzpkx720033gnjjwp4jkzsz"
+      },
+      {
+        "postId": "cmkzpkx7o003agnjjbia860o9",
+        "tagId": "cmkzpkx720033gnjjwp4jkzsz"
+      },
+      {
+        "postId": "cmkzpkx7t003ggnjjz4mmi4jo",
+        "tagId": "cmkzpkx720033gnjjwp4jkzsz"
+      },
+      {
+        "postId": "cmkzpkx7v003ignjjzjp2ptaw",
+        "tagId": "cmkzpkx720033gnjjwp4jkzsz"
+      },
+      {
+        "postId": "cmkzpkx7y003kgnjjwz85z881",
+        "tagId": "cmkzpkx720033gnjjwp4jkzsz"
+      },
+      {
+        "postId": "cmkzpkx82003qgnjjjl8zjfly",
+        "tagId": "cmkzpkx720033gnjjwp4jkzsz"
+      },
+      {
+        "postId": "cmkzpkx87003sgnjjfaolvdw0",
+        "tagId": "cmkzpkx720033gnjjwp4jkzsz"
+      },
+      {
+        "postId": "cmkzpkx89003ugnjjzdugdl7l",
+        "tagId": "cmkzpkx720033gnjjwp4jkzsz"
+      },
+      {
+        "postId": "cmkzpkx8f0040gnjj0d7tys0l",
+        "tagId": "cmkzpkx720033gnjjwp4jkzsz"
+      },
+      {
+        "postId": "cmkzpkx8i0042gnjjeeloaq06",
+        "tagId": "cmkzpkx720033gnjjwp4jkzsz"
+      },
+      {
+        "postId": "cmkzpkx8j0044gnjj7zm79lab",
+        "tagId": "cmkzpkx720033gnjjwp4jkzsz"
+      },
+      {
+        "postId": "cmkzpkx8o004agnjj3fac6cem",
+        "tagId": "cmkzpkx720033gnjjwp4jkzsz"
+      },
+      {
+        "postId": "cmkzpkx7h0038gnjjlam0iiy0",
+        "tagId": "cmkzpkx720034gnjjx2har3sp"
+      },
+      {
+        "postId": "cmkzpkx7t003ggnjjz4mmi4jo",
+        "tagId": "cmkzpkx720034gnjjx2har3sp"
+      },
+      {
+        "postId": "cmkzpkx7v003ignjjzjp2ptaw",
+        "tagId": "cmkzpkx720034gnjjx2har3sp"
+      },
+      {
+        "postId": "cmkzpkx82003qgnjjjl8zjfly",
+        "tagId": "cmkzpkx720034gnjjx2har3sp"
+      },
+      {
+        "postId": "cmkzpkx87003sgnjjfaolvdw0",
+        "tagId": "cmkzpkx720034gnjjx2har3sp"
+      },
+      {
+        "postId": "cmkzpkx8f0040gnjj0d7tys0l",
+        "tagId": "cmkzpkx720034gnjjx2har3sp"
+      },
+      {
+        "postId": "cmkzpkx8i0042gnjjeeloaq06",
+        "tagId": "cmkzpkx720034gnjjx2har3sp"
+      },
+      {
+        "postId": "cmkzpkx8o004agnjj3fac6cem",
+        "tagId": "cmkzpkx720034gnjjx2har3sp"
+      },
+      {
+        "postId": "cmkzpkx7h0038gnjjlam0iiy0",
+        "tagId": "cmkzpkx720035gnjjsh5tw1cx"
+      },
+      {
+        "postId": "cmkzpkx7o003agnjjbia860o9",
+        "tagId": "cmkzpkx720035gnjjsh5tw1cx"
+      },
+      {
+        "postId": "cmkzpkx7s003egnjj97cvxiw2",
+        "tagId": "cmkzpkx720035gnjjsh5tw1cx"
+      },
+      {
+        "postId": "cmkzpkx7v003ignjjzjp2ptaw",
+        "tagId": "cmkzpkx720035gnjjsh5tw1cx"
+      },
+      {
+        "postId": "cmkzpkx7y003kgnjjwz85z881",
+        "tagId": "cmkzpkx720035gnjjsh5tw1cx"
+      },
+      {
+        "postId": "cmkzpkx81003ognjjk22qvw2l",
+        "tagId": "cmkzpkx720035gnjjsh5tw1cx"
+      },
+      {
+        "postId": "cmkzpkx87003sgnjjfaolvdw0",
+        "tagId": "cmkzpkx720035gnjjsh5tw1cx"
+      },
+      {
+        "postId": "cmkzpkx89003ugnjjzdugdl7l",
+        "tagId": "cmkzpkx720035gnjjsh5tw1cx"
+      },
+      {
+        "postId": "cmkzpkx8e003ygnjj3i54son5",
+        "tagId": "cmkzpkx720035gnjjsh5tw1cx"
+      },
+      {
+        "postId": "cmkzpkx8i0042gnjjeeloaq06",
+        "tagId": "cmkzpkx720035gnjjsh5tw1cx"
+      },
+      {
+        "postId": "cmkzpkx8j0044gnjj7zm79lab",
+        "tagId": "cmkzpkx720035gnjjsh5tw1cx"
+      },
+      {
+        "postId": "cmkzpkx8m0048gnjjlvmuupfw",
+        "tagId": "cmkzpkx720035gnjjsh5tw1cx"
+      },
+      {
+        "postId": "cmkzpkx7q003cgnjj3728s3y6",
+        "tagId": "cmkzpkx740036gnjjweuqbj1a"
+      },
+      {
+        "postId": "cmkzpkx80003mgnjj0c618gdx",
+        "tagId": "cmkzpkx740036gnjjweuqbj1a"
+      },
+      {
+        "postId": "cmkzpkx8d003wgnjjaqbx8nma",
+        "tagId": "cmkzpkx740036gnjjweuqbj1a"
+      },
+      {
+        "postId": "cmkzpkx8l0046gnjjfijeyiz2",
+        "tagId": "cmkzpkx740036gnjjweuqbj1a"
+      }
+    ],
+    "media": [
+      {
+        "id": "cml11vuo600129gder1iea2pj",
+        "name": "Screenshot 2026-01-07 at 12.55.22 PM",
+        "fileName": "1769787671044-u661c3.png",
+        "fileType": "image/png",
+        "fileSize": 354301,
+        "url": "/uploads/1769787671044-u661c3.png",
+        "width": null,
+        "height": null,
+        "alt": null,
+        "folderId": "cml11qobf000q9gdecft3k5wc",
+        "uploadedBy": "cmkzpkx3x0005gnjjydgpnhj2",
+        "createdAt": "2026-01-30T15:41:11.046Z",
+        "updatedAt": "2026-01-30T15:41:11.046Z"
+      }
+    ],
+    "mediaFolders": [
+      {
+        "id": "cml10sv7700am9g2k6om9m045",
+        "name": "TEst",
+        "parentId": null,
+        "createdAt": "2026-01-30T15:10:52.147Z",
+        "updatedAt": "2026-01-30T15:10:52.147Z"
+      },
+      {
+        "id": "cml110azn00ch9g2k8z2hhg61",
+        "name": "yes",
+        "parentId": null,
+        "createdAt": "2026-01-30T15:16:39.202Z",
+        "updatedAt": "2026-01-30T15:16:39.202Z"
+      },
+      {
+        "id": "cml11m58s000n9g05ftuwx8jd",
+        "name": "ts",
+        "parentId": null,
+        "createdAt": "2026-01-30T15:33:38.189Z",
+        "updatedAt": "2026-01-30T15:33:38.189Z"
+      },
+      {
+        "id": "cml11qobf000q9gdecft3k5wc",
+        "name": "hhh",
+        "parentId": null,
+        "createdAt": "2026-01-30T15:37:09.532Z",
+        "updatedAt": "2026-01-30T15:37:09.532Z"
+      }
+    ],
+    "seoMeta": [
+      {
+        "id": "cml109rq2006c9g2klaguy95w",
+        "postId": "cml1077rp005i9g2kjewsised",
+        "metaTitle": "Excepteur tempora vo test",
+        "metaDescription": "Ut minus iusto eos s heyys",
+        "metaKeywords": "tets, tste",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "twitterTitle": "",
+        "twitterDescription": "",
+        "twitterImage": "",
+        "canonicalUrl": "",
+        "noIndex": false,
+        "noFollow": false
+      }
+    ],
+    "redirects": [
+      {
+        "id": "cml10ahoo006h9g2k1eg5vaiy",
+        "source": "/od",
+        "destination": "/ddd",
+        "statusCode": 301,
+        "hitCount": 0,
+        "isActive": true,
+        "createdAt": "2026-01-30T14:56:34.825Z",
+        "updatedAt": "2026-01-30T14:56:34.825Z"
+      }
+    ],
+    "settings": [
+      {
+        "id": "cmkzpkx8p004bgnjjfipcolpv",
+        "key": "siteName",
+        "value": "My Dashboardd",
+        "group": "general",
+        "createdAt": "2026-01-29T17:08:59.594Z",
+        "updatedAt": "2026-01-30T15:13:45.560Z"
+      },
+      {
+        "id": "cmkzpkx8s004cgnjjz9yfdyd8",
+        "key": "siteDescription",
+        "value": "A modern admin dashboardd",
+        "group": "general",
+        "createdAt": "2026-01-29T17:08:59.597Z",
+        "updatedAt": "2026-01-30T15:13:45.560Z"
+      },
+      {
+        "id": "cmkzpkx8t004dgnjjm36qifzh",
+        "key": "siteUrl",
+        "value": "http://localhost:3000",
+        "group": "general",
+        "createdAt": "2026-01-29T17:08:59.597Z",
+        "updatedAt": "2026-01-30T15:13:45.560Z"
+      },
+      {
+        "id": "cmkzpkx8t004egnjjywj3t7zf",
+        "key": "timezone",
+        "value": "UTC",
+        "group": "general",
+        "createdAt": "2026-01-29T17:08:59.598Z",
+        "updatedAt": "2026-01-30T15:13:45.560Z"
+      },
+      {
+        "id": "cmkzpkx8u004fgnjjlxzw3rn4",
+        "key": "dateFormat",
+        "value": "MMMM d, yyyy",
+        "group": "general",
+        "createdAt": "2026-01-29T17:08:59.599Z",
+        "updatedAt": "2026-01-30T15:13:45.560Z"
+      },
+      {
+        "id": "cmkzpkx8v004ggnjjablkbchk",
+        "key": "language",
+        "value": "en",
+        "group": "general",
+        "createdAt": "2026-01-29T17:08:59.599Z",
+        "updatedAt": "2026-01-30T15:13:45.560Z"
+      },
+      {
+        "id": "cmkzpkx8v004hgnjjqcvjf7kf",
+        "key": "primaryColor",
+        "value": "#f97316",
+        "group": "appearance",
+        "createdAt": "2026-01-29T17:08:59.600Z",
+        "updatedAt": "2026-01-30T15:31:39.527Z"
+      },
+      {
+        "id": "cmkzpkx8w004ignjju9b5nd6r",
+        "key": "passwordMinLength",
+        "value": "8",
+        "group": "security",
+        "createdAt": "2026-01-29T17:08:59.600Z",
+        "updatedAt": "2026-01-30T15:46:38.323Z"
+      },
+      {
+        "id": "cmkzpkx8w004jgnjjdpej5sze",
+        "key": "sessionTimeout",
+        "value": "120",
+        "group": "security",
+        "createdAt": "2026-01-29T17:08:59.601Z",
+        "updatedAt": "2026-01-30T15:46:38.324Z"
+      },
+      {
+        "id": "cml10j9v4008i9g2k5pgbz0hi",
+        "key": "logo",
+        "value": "",
+        "group": "appearance",
+        "createdAt": "2026-01-30T15:03:24.592Z",
+        "updatedAt": "2026-01-30T15:31:39.527Z"
+      },
+      {
+        "id": "cml10j9v4008k9g2k5vfrkqrp",
+        "key": "favicon",
+        "value": "",
+        "group": "appearance",
+        "createdAt": "2026-01-30T15:03:24.592Z",
+        "updatedAt": "2026-01-30T15:31:39.527Z"
+      },
+      {
+        "id": "cml10kv2v00939g2k6hmq1odz",
+        "key": "passwordRequireUppercase",
+        "value": "true",
+        "group": "security",
+        "createdAt": "2026-01-30T15:04:38.743Z",
+        "updatedAt": "2026-01-30T15:46:38.323Z"
+      },
+      {
+        "id": "cml10kv2v00949g2kol3wvwpr",
+        "key": "passwordRequireLowercase",
+        "value": "true",
+        "group": "security",
+        "createdAt": "2026-01-30T15:04:38.743Z",
+        "updatedAt": "2026-01-30T15:46:38.324Z"
+      },
+      {
+        "id": "cml10kv2w00959g2kyqsibm1d",
+        "key": "passwordRequireNumber",
+        "value": "true",
+        "group": "security",
+        "createdAt": "2026-01-30T15:04:38.744Z",
+        "updatedAt": "2026-01-30T15:46:38.324Z"
+      },
+      {
+        "id": "cml10kv3700969g2kx2q217tw",
+        "key": "maxLoginAttempts",
+        "value": "55",
+        "group": "security",
+        "createdAt": "2026-01-30T15:04:38.744Z",
+        "updatedAt": "2026-01-30T15:46:38.324Z"
+      },
+      {
+        "id": "cml10kv3700979g2kbuv3l9ci",
+        "key": "passwordRequireSpecial",
+        "value": "false",
+        "group": "security",
+        "createdAt": "2026-01-30T15:04:38.744Z",
+        "updatedAt": "2026-01-30T15:46:38.324Z"
+      },
+      {
+        "id": "cml10kv3700989g2ky939hppa",
+        "key": "twoFactorEnabled",
+        "value": "false",
+        "group": "security",
+        "createdAt": "2026-01-30T15:04:38.745Z",
+        "updatedAt": "2026-01-30T15:46:38.324Z"
+      },
+      {
+        "id": "cml10kv3700999g2kc0m0gh2g",
+        "key": "lockoutDuration",
+        "value": "15",
+        "group": "security",
+        "createdAt": "2026-01-30T15:04:38.744Z",
+        "updatedAt": "2026-01-30T15:46:38.324Z"
+      },
+      {
+        "id": "cml10y1kg00c29g2k5tizjux0",
+        "key": "smtp_port",
+        "value": "587",
+        "group": "email",
+        "createdAt": "2026-01-30T15:14:53.681Z",
+        "updatedAt": "2026-01-30T15:14:53.681Z"
+      },
+      {
+        "id": "cml10y1kg00c39g2kugqvusdv",
+        "key": "smtp_host",
+        "value": "dd",
+        "group": "email",
+        "createdAt": "2026-01-30T15:14:53.681Z",
+        "updatedAt": "2026-01-30T15:14:53.681Z"
+      },
+      {
+        "id": "cml10y1kg00c49g2k3ycadews",
+        "key": "smtp_user",
+        "value": "",
+        "group": "email",
+        "createdAt": "2026-01-30T15:14:53.681Z",
+        "updatedAt": "2026-01-30T15:14:53.681Z"
+      },
+      {
+        "id": "cml10y1kh00c59g2ktwq47x86",
+        "key": "smtp_secure",
+        "value": "false",
+        "group": "email",
+        "createdAt": "2026-01-30T15:14:53.681Z",
+        "updatedAt": "2026-01-30T15:14:53.681Z"
+      },
+      {
+        "id": "cml10y1kh00c69g2krwv59czq",
+        "key": "smtp_pass",
+        "value": "",
+        "group": "email",
+        "createdAt": "2026-01-30T15:14:53.681Z",
+        "updatedAt": "2026-01-30T15:14:53.681Z"
+      },
+      {
+        "id": "cml10y1kh00c79g2k5i79rsze",
+        "key": "smtp_from",
+        "value": "",
+        "group": "email",
+        "createdAt": "2026-01-30T15:14:53.681Z",
+        "updatedAt": "2026-01-30T15:14:53.681Z"
+      },
+      {
+        "id": "cml10y1kk00c89g2kfavom50u",
+        "key": "smtp_from_name",
+        "value": "",
+        "group": "email",
+        "createdAt": "2026-01-30T15:14:53.681Z",
+        "updatedAt": "2026-01-30T15:14:53.681Z"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "cml0xsy7a00409gma2e12ea0z",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "title": "Welcome to the Dashboard!",
+        "message": "Thank you for joining. Explore the features and customize your experience.",
+        "type": "SUCCESS",
+        "category": "SYSTEM",
+        "isRead": true,
+        "link": "/dashboard",
+        "metadata": null,
+        "createdAt": "2026-01-30T13:46:57.191Z"
+      },
+      {
+        "id": "cml0xsy7b00429gma67fpd4s3",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "title": "Post Published",
+        "message": "Your post 'Getting Started with Next.js 16' has been published successfully.",
+        "type": "SUCCESS",
+        "category": "POST",
+        "isRead": true,
+        "link": "/dashboard/posts",
+        "metadata": null,
+        "createdAt": "2026-01-30T13:46:57.192Z"
+      },
+      {
+        "id": "cml0xsy7c00449gmatzwp3tjp",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "title": "New Comment",
+        "message": "Demo User 5 commented on your post 'Mastering React Server Components'.",
+        "type": "INFO",
+        "category": "COMMENT",
+        "isRead": true,
+        "link": null,
+        "metadata": null,
+        "createdAt": "2026-01-30T13:46:57.193Z"
+      },
+      {
+        "id": "cml0xsy7d00469gma52526tph",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "title": "Subscription Reminder",
+        "message": "Your Professional plan will renew in 7 days.",
+        "type": "WARNING",
+        "category": "SUBSCRIPTION",
+        "isRead": true,
+        "link": "/dashboard/profile",
+        "metadata": null,
+        "createdAt": "2026-01-30T13:46:57.193Z"
+      },
+      {
+        "id": "cml0xsy7d00489gma1jzd0sko",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "title": "Security Alert",
+        "message": "A new login was detected from a new device in New York, USA.",
+        "type": "WARNING",
+        "category": "SECURITY",
+        "isRead": true,
+        "link": "/dashboard/settings/security",
+        "metadata": null,
+        "createdAt": "2026-01-30T13:46:57.194Z"
+      },
+      {
+        "id": "cml0xsy7e004a9gmalgs19gz9",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "title": "System Update",
+        "message": "The dashboard has been updated to version 2.0 with new features.",
+        "type": "INFO",
+        "category": "SYSTEM",
+        "isRead": true,
+        "link": null,
+        "metadata": null,
+        "createdAt": "2026-01-30T13:46:57.194Z"
+      }
+    ],
+    "notificationPreferences": [
+      {
+        "id": "cml0xsy7f004c9gmagpqv2yv6",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "category": "SYSTEM",
+        "email": true,
+        "inApp": true,
+        "createdAt": "2026-01-30T13:46:57.195Z",
+        "updatedAt": "2026-01-30T13:46:57.195Z"
+      },
+      {
+        "id": "cml0xsy7k004e9gmazrmdomps",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "category": "POST",
+        "email": true,
+        "inApp": true,
+        "createdAt": "2026-01-30T13:46:57.201Z",
+        "updatedAt": "2026-01-30T13:46:57.201Z"
+      },
+      {
+        "id": "cml0xsy7l004g9gmam6e2ozbf",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "category": "USER",
+        "email": true,
+        "inApp": true,
+        "createdAt": "2026-01-30T13:46:57.201Z",
+        "updatedAt": "2026-01-30T13:46:57.201Z"
+      },
+      {
+        "id": "cml0xsy7m004i9gmakcq65uj9",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "category": "SUBSCRIPTION",
+        "email": true,
+        "inApp": true,
+        "createdAt": "2026-01-30T13:46:57.203Z",
+        "updatedAt": "2026-01-30T13:46:57.203Z"
+      },
+      {
+        "id": "cml0xsy7n004k9gma1q66ltna",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "category": "SECURITY",
+        "email": true,
+        "inApp": true,
+        "createdAt": "2026-01-30T13:46:57.203Z",
+        "updatedAt": "2026-01-30T13:46:57.203Z"
+      },
+      {
+        "id": "cml0xsy7o004m9gma2zd5gm1y",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "category": "COMMENT",
+        "email": true,
+        "inApp": true,
+        "createdAt": "2026-01-30T13:46:57.204Z",
+        "updatedAt": "2026-01-30T13:46:57.204Z"
+      }
+    ],
+    "plans": [
+      {
+        "id": "cmkzpkx8x004kgnjjob4ge29g",
+        "name": "Freee",
+        "description": "Get started with basic featuresddd",
+        "monthlyPrice": "0",
+        "yearlyPrice": "0",
+        "features": {
+          "maxUsers": 1,
+          "maxStorage": 1,
+          "maxApiCalls": 12,
+          "featureFlags": []
+        },
+        "trialDays": 0,
+        "status": "ACTIVE",
+        "sortOrder": 0,
+        "isPopular": false,
+        "createdAt": "2026-01-29T17:08:59.601Z",
+        "updatedAt": "2026-01-30T14:57:51.623Z"
+      },
+      {
+        "id": "cmkzpkx90004lgnjjf8mzw8qo",
+        "name": "Starter",
+        "description": "Perfect for small teams",
+        "monthlyPrice": "9.99",
+        "yearlyPrice": "99.99",
+        "features": {
+          "maxUsers": 5,
+          "maxStorage": 10,
+          "maxApiCalls": 10000,
+          "featureFlags": [
+            "api"
+          ]
+        },
+        "trialDays": 14,
+        "status": "ACTIVE",
+        "sortOrder": 1,
+        "isPopular": false,
+        "createdAt": "2026-01-29T17:08:59.604Z",
+        "updatedAt": "2026-01-29T17:08:59.604Z"
+      },
+      {
+        "id": "cmkzpkx91004mgnjjn3oc6zq0",
+        "name": "Professional",
+        "description": "For growing businesses",
+        "monthlyPrice": "29.99",
+        "yearlyPrice": "299.99",
+        "features": {
+          "maxUsers": 25,
+          "maxStorage": 100,
+          "maxApiCalls": 100000,
+          "featureFlags": [
+            "api",
+            "sso",
+            "priority_support"
+          ]
+        },
+        "trialDays": 14,
+        "status": "ACTIVE",
+        "sortOrder": 2,
+        "isPopular": true,
+        "createdAt": "2026-01-29T17:08:59.605Z",
+        "updatedAt": "2026-01-29T17:08:59.605Z"
+      },
+      {
+        "id": "cmkzpkx91004ngnjjd31w7fgp",
+        "name": "Enterprise",
+        "description": "Custom solutions for large organizations",
+        "monthlyPrice": "99.99",
+        "yearlyPrice": "999.99",
+        "features": {
+          "maxUsers": null,
+          "maxStorage": null,
+          "maxApiCalls": null,
+          "featureFlags": [
+            "api",
+            "sso",
+            "priority_support",
+            "dedicated_support",
+            "custom_integrations"
+          ]
+        },
+        "trialDays": 30,
+        "status": "ACTIVE",
+        "sortOrder": 3,
+        "isPopular": false,
+        "createdAt": "2026-01-29T17:08:59.606Z",
+        "updatedAt": "2026-01-29T17:08:59.606Z"
+      },
+      {
+        "id": "cml10eb3t006w9g2kdntxdsyb",
+        "name": "Susan Taylor",
+        "description": "Omnis impedit est d",
+        "monthlyPrice": "188",
+        "yearlyPrice": "282",
+        "features": {
+          "maxUsers": 54,
+          "maxStorage": 87,
+          "maxApiCalls": 71,
+          "featureFlags": []
+        },
+        "trialDays": 16,
+        "status": "INACTIVE",
+        "sortOrder": 33,
+        "isPopular": false,
+        "createdAt": "2026-01-30T14:59:32.921Z",
+        "updatedAt": "2026-01-30T14:59:32.921Z"
+      }
+    ],
+    "subscriptions": [
+      {
+        "id": "cml0y5wuc00419g2kssz6v9rv",
+        "userId": "cmkzpkx5o0007gnjji9wp6qly",
+        "planId": "cmkzpkx90004lgnjjf8mzw8qo",
+        "status": "TRIALING",
+        "billingPeriod": "MONTHLY",
+        "currentPeriodStart": "2026-01-30T13:57:01.956Z",
+        "currentPeriodEnd": "2026-03-02T13:57:01.956Z",
+        "trialStart": "2026-01-30T13:57:01.956Z",
+        "trialEnd": "2026-02-13T13:57:01.956Z",
+        "canceledAt": null,
+        "cancelReason": null,
+        "createdAt": "2026-01-30T13:57:01.957Z",
+        "updatedAt": "2026-01-30T13:57:01.957Z"
+      },
+      {
+        "id": "cml10fsms00769g2kj76pqsmt",
+        "userId": "cmkzpkx67000zgnjjkf5q7w4l",
+        "planId": "cmkzpkx90004lgnjjf8mzw8qo",
+        "status": "ACTIVE",
+        "billingPeriod": "MONTHLY",
+        "currentPeriodStart": "2026-01-30T15:00:42.292Z",
+        "currentPeriodEnd": "2026-03-02T15:00:42.292Z",
+        "trialStart": null,
+        "trialEnd": null,
+        "canceledAt": null,
+        "cancelReason": null,
+        "createdAt": "2026-01-30T15:00:42.293Z",
+        "updatedAt": "2026-01-30T15:00:42.293Z"
+      }
+    ],
+    "activityLogs": [
+      {
+        "id": "cml122v7e001n9gdes9q6jtjm",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "settings",
+        "entityId": null,
+        "description": "Updated security settings",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:46:38.330Z"
+      },
+      {
+        "id": "cml11vuo800149gdetrds0vgy",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "uploaded",
+        "entity": "media",
+        "entityId": "cml11vuo600129gder1iea2pj",
+        "description": "Uploaded file \"Screenshot 2026-01-07 at 12.55.22 PM.png\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:41:11.048Z"
+      },
+      {
+        "id": "cml11r7qu000y9gdeh1prljya",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "deleted",
+        "entity": "media",
+        "entityId": "cml11r015000u9gdej29th1nk",
+        "description": "Deleted media \"db_cluster-22-06-2025@03-30-07.backup\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:37:34.710Z"
+      },
+      {
+        "id": "cml11r01a000w9gdekktveg34",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "uploaded",
+        "entity": "media",
+        "entityId": "cml11r015000u9gdej29th1nk",
+        "description": "Uploaded file \"db_cluster-22-06-2025@03-30-07.backup.gz\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:37:24.718Z"
+      },
+      {
+        "id": "cml11jlos000e9g05lsfcpvnk",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "settings",
+        "entityId": null,
+        "description": "Updated appearance settings",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:31:39.532Z"
+      },
+      {
+        "id": "cml110rk400cr9g2kv591pu6u",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "deleted",
+        "entity": "media",
+        "entityId": "cml110k2d00cl9g2kdq1197c4",
+        "description": "Deleted media \"Screenshot 2026-01-07 at 12.55.22 PM\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:17:00.676Z"
+      },
+      {
+        "id": "cml110k2k00cn9g2kirw1lcxh",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "uploaded",
+        "entity": "media",
+        "entityId": "cml110k2d00cl9g2kdq1197c4",
+        "description": "Uploaded file \"Screenshot 2026-01-07 at 12.55.22 PM.png\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:16:50.972Z"
+      },
+      {
+        "id": "cml10y1op00ca9g2kmz4i3hfg",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "settings",
+        "entityId": null,
+        "description": "Updated email settings",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:14:53.834Z"
+      },
+      {
+        "id": "cml10wzn500bt9g2kxwdu8agn",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "settings",
+        "entityId": null,
+        "description": "Updated appearance settings",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:14:04.530Z"
+      },
+      {
+        "id": "cml10wl0e00bk9g2kzqdnngt2",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "settings",
+        "entityId": null,
+        "description": "Updated general settings",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:13:45.567Z"
+      },
+      {
+        "id": "cml10v99500b49g2k4y5pds0v",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "deleted",
+        "entity": "category",
+        "entityId": "cml10v2eh00ay9g2k82pcdnbt",
+        "description": "Deleted category \"test ls assss\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:12:43.673Z"
+      },
+      {
+        "id": "cml10v75o00b29g2kzw1nv8et",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "category",
+        "entityId": "cml10v2eh00ay9g2k82pcdnbt",
+        "description": "Updated category \"test ls assss\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:12:40.957Z"
+      },
+      {
+        "id": "cml10v2ek00b09g2kuhlp07m8",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "category",
+        "entityId": "cml10v2eh00ay9g2k82pcdnbt",
+        "description": "Created category \"test ls as\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:12:34.796Z"
+      },
+      {
+        "id": "cml10ramm00ah9g2kbcjler6f",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "deleted",
+        "entity": "category",
+        "entityId": "cml10r2ce00ab9g2kgbel13re",
+        "description": "Deleted category \"Tests\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:09:38.831Z"
+      },
+      {
+        "id": "cml10r7ps00af9g2k68na1is1",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "category",
+        "entityId": "cml10r2ce00ab9g2kgbel13re",
+        "description": "Updated category \"Tests\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:09:35.057Z"
+      },
+      {
+        "id": "cml10r2ck00ad9g2kjy2feijq",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "category",
+        "entityId": "cml10r2ce00ab9g2kgbel13re",
+        "description": "Created category \"Test\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:09:28.101Z"
+      },
+      {
+        "id": "cml10ofk5009t9g2kmv6agswu",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "deleted",
+        "entity": "role",
+        "entityId": "cml10o4k0009n9g2kqlw7ufgx",
+        "description": "Deleted role Destiny Ayala",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:07:25.254Z"
+      },
+      {
+        "id": "cml10obxg009r9g2kzkanmmsf",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "role",
+        "entityId": "cml10o4k0009n9g2kqlw7ufgx",
+        "description": "Updated role Destiny Ayala",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:07:20.548Z"
+      },
+      {
+        "id": "cml10o4k4009p9g2kw3x991zm",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "role",
+        "entityId": "cml10o4k0009n9g2kqlw7ufgx",
+        "description": "Created role Destiny Ayala",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:07:10.996Z"
+      },
+      {
+        "id": "cml10kv3t009c9g2krz7vnl5h",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "settings",
+        "entityId": null,
+        "description": "Updated security settings",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:04:38.778Z"
+      },
+      {
+        "id": "cml10jco5008r9g2k5ryvw0bo",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "settings",
+        "entityId": null,
+        "description": "Updated appearance settings",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:03:28.229Z"
+      },
+      {
+        "id": "cml10ja08008m9g2kecbmjei9",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "settings",
+        "entityId": null,
+        "description": "Updated appearance settings",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:03:24.776Z"
+      },
+      {
+        "id": "cml10hsb600879g2kvc1zkkyn",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "deleted",
+        "entity": "role",
+        "entityId": "cml10hgis007x9g2ktgkrtah3",
+        "description": "Deleted role Linus Mccormick",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:02:15.186Z"
+      },
+      {
+        "id": "cml10hoz100839g2kag1efket",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "role",
+        "entityId": "cml10hgis007x9g2ktgkrtah3",
+        "description": "Updated role Linus Mccormick",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:02:10.862Z"
+      },
+      {
+        "id": "cml10hgiv007z9g2k6cl0alw5",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "role",
+        "entityId": "cml10hgis007x9g2ktgkrtah3",
+        "description": "Created role Linus Mccormick",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:01:59.912Z"
+      },
+      {
+        "id": "cml10h065007s9g2kp04xekfv",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "user",
+        "entityId": "cml10gmo3007k9g2k9v7ctl4g",
+        "description": "Updated user mumev@mailinator.com",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:01:38.718Z"
+      },
+      {
+        "id": "cml10gmo6007m9g2kj5w1oavf",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "user",
+        "entityId": "cml10gmo3007k9g2k9v7ctl4g",
+        "description": "Created user mumev@mailinator.com",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:01:21.223Z"
+      },
+      {
+        "id": "cml10fsmx00789g2kuu00l7b9",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "subscription",
+        "entityId": "cml10fsms00769g2kj76pqsmt",
+        "description": "Created subscription for Demo User 15 on plan Starter",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T15:00:42.297Z"
+      },
+      {
+        "id": "cml10eb3x006y9g2kkhk05rko",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "plan",
+        "entityId": "cml10eb3t006w9g2kdntxdsyb",
+        "description": "Created plan Susan Taylor",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T14:59:32.925Z"
+      },
+      {
+        "id": "cml10c4y3006r9g2kdkkp9tdw",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "plan",
+        "entityId": "cmkzpkx8x004kgnjjob4ge29g",
+        "description": "Updated plan Freee",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T14:57:51.628Z"
+      },
+      {
+        "id": "cml10ahow006j9g2kfjplgl5c",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "redirect",
+        "entityId": "cml10ahoo006h9g2k1eg5vaiy",
+        "description": "Created redirect /od -> /ddd",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T14:56:34.833Z"
+      },
+      {
+        "id": "cml109rq7006e9g2kcj4p7yl5",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "seo",
+        "entityId": "cml109rq2006c9g2klaguy95w",
+        "description": "Updated SEO for \"Excepteur tempora vo\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T14:56:01.183Z"
+      },
+      {
+        "id": "cml1088v100649g2ky8iejure",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "deleted",
+        "entity": "tag",
+        "entityId": "cml0zmxwp004t9g2kf9s4vnzh",
+        "description": "Deleted tag \"Tagxx\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T14:54:50.077Z"
+      },
+      {
+        "id": "cml107etl005q9g2ke68ctwir",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "post",
+        "entityId": "cml1077rp005i9g2kjewsised",
+        "description": "Updated post \"Excepteur tempora vo\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T14:54:11.146Z"
+      },
+      {
+        "id": "cml1077rv005k9g2kswihko5p",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "post",
+        "entityId": "cml1077rp005i9g2kjewsised",
+        "description": "Created post \"Excepteur tempora vo\"",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T14:54:02.011Z"
+      },
+      {
+        "id": "cml0xsy76003t9gmahwbwx0lk",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "settings",
+        "entityId": null,
+        "description": "Updated site settings",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T13:46:57.186Z"
+      },
+      {
+        "id": "cml0xsy75003r9gmasdstnbpp",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "category",
+        "entityId": null,
+        "description": "Created category 'Technology'",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T13:46:57.186Z"
+      },
+      {
+        "id": "cml0xsy74003p9gmaepr77c5l",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "published",
+        "entity": "post",
+        "entityId": null,
+        "description": "Published post 'Mastering React Server Components'",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T13:46:57.185Z"
+      },
+      {
+        "id": "cml0xsy74003n9gmac3l8r30t",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "user",
+        "entityId": null,
+        "description": "Updated user profile settings",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T13:46:57.184Z"
+      },
+      {
+        "id": "cml0xsy70003l9gmatwk63x21",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "post",
+        "entityId": null,
+        "description": "Created post 'Getting Started with Next.js 16'",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-30T13:46:57.180Z"
+      },
+      {
+        "id": "cmkzvc5o8003tgnor8un6l6vc",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "settings",
+        "entityId": null,
+        "description": "Updated site settings",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-29T19:50:08.312Z"
+      },
+      {
+        "id": "cmkzvc5o6003rgnorezrg2ufa",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "category",
+        "entityId": null,
+        "description": "Created category 'Technology'",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-29T19:50:08.311Z"
+      },
+      {
+        "id": "cmkzvc5o6003pgnorj2sttwms",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "published",
+        "entity": "post",
+        "entityId": null,
+        "description": "Published post 'Mastering React Server Components'",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-29T19:50:08.310Z"
+      },
+      {
+        "id": "cmkzvc5o5003ngnorvb4buqbd",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "user",
+        "entityId": null,
+        "description": "Updated user profile settings",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-29T19:50:08.309Z"
+      },
+      {
+        "id": "cmkzvc5n4003lgnori83mt714",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "post",
+        "entityId": null,
+        "description": "Created post 'Getting Started with Next.js 16'",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-29T19:50:08.272Z"
+      },
+      {
+        "id": "cmkzpkx98004xgnjjeiifuh28",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "settings",
+        "entityId": null,
+        "description": "Updated site settings",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-29T17:08:59.612Z"
+      },
+      {
+        "id": "cmkzpkx98004vgnjj00nto56q",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "category",
+        "entityId": null,
+        "description": "Created category 'Technology'",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-29T17:08:59.612Z"
+      },
+      {
+        "id": "cmkzpkx97004tgnjj3xsby4ri",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "published",
+        "entity": "post",
+        "entityId": null,
+        "description": "Published post 'Mastering React Server Components'",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-29T17:08:59.612Z"
+      },
+      {
+        "id": "cmkzpkx97004rgnjjp5psq9p0",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "updated",
+        "entity": "user",
+        "entityId": null,
+        "description": "Updated user profile settings",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-29T17:08:59.611Z"
+      },
+      {
+        "id": "cmkzpkx93004pgnjjknk80k9o",
+        "userId": "cmkzpkx3x0005gnjjydgpnhj2",
+        "action": "created",
+        "entity": "post",
+        "entityId": null,
+        "description": "Created post 'Getting Started with Next.js 16'",
+        "metadata": null,
+        "ipAddress": null,
+        "userAgent": null,
+        "createdAt": "2026-01-29T17:08:59.607Z"
+      }
+    ],
+    "emailTemplates": [
+      {
+        "id": "cmkzvc5oc003ugnortjsooc5p",
+        "name": "Welcome Email",
+        "slug": "welcome",
+        "subject": "Welcome to {{siteName}}!",
+        "htmlContent": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Welcome to {{siteName}}</title>\n</head>\n<body style=\"margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; background-color: #f4f4f5;\">\n  <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" style=\"max-width: 600px; margin: 0 auto; padding: 40px 20px;\">\n    <tr>\n      <td>\n        <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" style=\"background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);\">\n          <tr>\n            <td style=\"background-color: #18181b; padding: 24px; text-align: center;\">\n              <h1 style=\"color: #ffffff; margin: 0; font-size: 24px;\">{{siteName}}</h1>\n            </td>\n          </tr>\n          <tr>\n            <td style=\"padding: 32px 24px;\">\n              <h2 style=\"color: #18181b; margin: 0 0 16px; font-size: 20px;\">Welcome, {{userName}}!</h2>\n              <p style=\"color: #52525b; margin: 0 0 24px; font-size: 16px; line-height: 1.6;\">\n                Thank you for joining {{siteName}}. We're excited to have you on board!\n              </p>\n              <p style=\"color: #52525b; margin: 0 0 24px; font-size: 16px; line-height: 1.6;\">\n                Your account has been created with the email: <strong>{{userEmail}}</strong>\n              </p>\n              <table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" style=\"margin: 0 auto;\">\n                <tr>\n                  <td style=\"background-color: #18181b; border-radius: 6px;\">\n                    <a href=\"{{loginUrl}}\" style=\"display: inline-block; padding: 12px 24px; color: #ffffff; text-decoration: none; font-size: 16px; font-weight: 500;\">\n                      Get Started\n                    </a>\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n          <tr>\n            <td style=\"background-color: #f4f4f5; padding: 16px 24px; text-align: center;\">\n              <p style=\"color: #71717a; margin: 0; font-size: 14px;\">\n                © {{siteName}}. All rights reserved.\n              </p>\n            </td>\n          </tr>\n        </table>\n      </td>\n    </tr>\n  </table>\n</body>\n</html>",
+        "textContent": "Welcome to {{siteName}}!\n\nHello {{userName}},\n\nThank you for joining {{siteName}}. We're excited to have you on board!\n\nYour account has been created with the email: {{userEmail}}\n\nGet started: {{loginUrl}}\n\n© {{siteName}}. All rights reserved.",
+        "variables": {
+          "userName": "User's display name",
+          "userEmail": "User's email address",
+          "siteName": "Your site name",
+          "loginUrl": "URL to login page"
+        },
+        "description": "Sent to new users when they register",
+        "isActive": true,
+        "createdAt": "2026-01-29T19:50:08.316Z",
+        "updatedAt": "2026-01-29T19:50:08.316Z"
+      },
+      {
+        "id": "cmkzvc5oo003vgnorzacmy9c9",
+        "name": "Password Reset",
+        "slug": "password-reset",
+        "subject": "Reset Your Password",
+        "htmlContent": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Reset Your Password</title>\n</head>\n<body style=\"margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; background-color: #f4f4f5;\">\n  <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" style=\"max-width: 600px; margin: 0 auto; padding: 40px 20px;\">\n    <tr>\n      <td>\n        <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" style=\"background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);\">\n          <tr>\n            <td style=\"background-color: #18181b; padding: 24px; text-align: center;\">\n              <h1 style=\"color: #ffffff; margin: 0; font-size: 24px;\">{{siteName}}</h1>\n            </td>\n          </tr>\n          <tr>\n            <td style=\"padding: 32px 24px;\">\n              <h2 style=\"color: #18181b; margin: 0 0 16px; font-size: 20px;\">Reset Your Password</h2>\n              <p style=\"color: #52525b; margin: 0 0 24px; font-size: 16px; line-height: 1.6;\">\n                Hi {{userName}}, we received a request to reset your password. Click the button below to create a new password.\n              </p>\n              <table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" style=\"margin: 0 auto;\">\n                <tr>\n                  <td style=\"background-color: #18181b; border-radius: 6px;\">\n                    <a href=\"{{resetLink}}\" style=\"display: inline-block; padding: 12px 24px; color: #ffffff; text-decoration: none; font-size: 16px; font-weight: 500;\">\n                      Reset Password\n                    </a>\n                  </td>\n                </tr>\n              </table>\n              <p style=\"color: #71717a; margin: 24px 0 0; font-size: 14px; line-height: 1.6;\">\n                This link will expire in {{expiryTime}}. If you didn't request a password reset, you can safely ignore this email.\n              </p>\n            </td>\n          </tr>\n          <tr>\n            <td style=\"background-color: #f4f4f5; padding: 16px 24px; text-align: center;\">\n              <p style=\"color: #71717a; margin: 0; font-size: 14px;\">\n                © {{siteName}}. All rights reserved.\n              </p>\n            </td>\n          </tr>\n        </table>\n      </td>\n    </tr>\n  </table>\n</body>\n</html>",
+        "textContent": "Reset Your Password\n\nHi {{userName}},\n\nWe received a request to reset your password. Click the link below to create a new password:\n\n{{resetLink}}\n\nThis link will expire in {{expiryTime}}. If you didn't request a password reset, you can safely ignore this email.\n\n© {{siteName}}. All rights reserved.",
+        "variables": {
+          "userName": "User's display name",
+          "resetLink": "Password reset URL",
+          "expiryTime": "Link expiry time (e.g., '1 hour')",
+          "siteName": "Your site name"
+        },
+        "description": "Sent when a user requests a password reset",
+        "isActive": true,
+        "createdAt": "2026-01-29T19:50:08.328Z",
+        "updatedAt": "2026-01-29T19:50:08.328Z"
+      },
+      {
+        "id": "cmkzvc5op003wgnor7037oz73",
+        "name": "Subscription Started",
+        "slug": "subscription-started",
+        "subject": "Welcome to {{planName}} - Subscription Confirmed",
+        "htmlContent": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Subscription Confirmed</title>\n</head>\n<body style=\"margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; background-color: #f4f4f5;\">\n  <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" style=\"max-width: 600px; margin: 0 auto; padding: 40px 20px;\">\n    <tr>\n      <td>\n        <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" style=\"background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);\">\n          <tr>\n            <td style=\"background-color: #16a34a; padding: 24px; text-align: center;\">\n              <h1 style=\"color: #ffffff; margin: 0; font-size: 24px;\">Subscription Confirmed!</h1>\n            </td>\n          </tr>\n          <tr>\n            <td style=\"padding: 32px 24px;\">\n              <h2 style=\"color: #18181b; margin: 0 0 16px; font-size: 20px;\">Thank you, {{userName}}!</h2>\n              <p style=\"color: #52525b; margin: 0 0 24px; font-size: 16px; line-height: 1.6;\">\n                Your subscription to <strong>{{planName}}</strong> has been confirmed.\n              </p>\n              <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" style=\"background-color: #f4f4f5; border-radius: 6px; margin-bottom: 24px;\">\n                <tr>\n                  <td style=\"padding: 16px;\">\n                    <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\">\n                      <tr>\n                        <td style=\"color: #71717a; font-size: 14px; padding-bottom: 8px;\">Plan</td>\n                        <td style=\"color: #18181b; font-size: 14px; font-weight: 500; text-align: right; padding-bottom: 8px;\">{{planName}}</td>\n                      </tr>\n                      <tr>\n                        <td style=\"color: #71717a; font-size: 14px; padding-bottom: 8px;\">Billing Period</td>\n                        <td style=\"color: #18181b; font-size: 14px; font-weight: 500; text-align: right; padding-bottom: 8px;\">{{billingPeriod}}</td>\n                      </tr>\n                      <tr>\n                        <td style=\"color: #71717a; font-size: 14px; padding-bottom: 8px;\">Price</td>\n                        <td style=\"color: #18181b; font-size: 14px; font-weight: 500; text-align: right; padding-bottom: 8px;\">{{price}}</td>\n                      </tr>\n                      <tr>\n                        <td style=\"color: #71717a; font-size: 14px;\">Next Billing</td>\n                        <td style=\"color: #18181b; font-size: 14px; font-weight: 500; text-align: right;\">{{nextBillingDate}}</td>\n                      </tr>\n                    </table>\n                  </td>\n                </tr>\n              </table>\n              <table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" style=\"margin: 0 auto;\">\n                <tr>\n                  <td style=\"background-color: #18181b; border-radius: 6px;\">\n                    <a href=\"{{dashboardUrl}}\" style=\"display: inline-block; padding: 12px 24px; color: #ffffff; text-decoration: none; font-size: 16px; font-weight: 500;\">\n                      Go to Dashboard\n                    </a>\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n          <tr>\n            <td style=\"background-color: #f4f4f5; padding: 16px 24px; text-align: center;\">\n              <p style=\"color: #71717a; margin: 0; font-size: 14px;\">\n                © {{siteName}}. All rights reserved.\n              </p>\n            </td>\n          </tr>\n        </table>\n      </td>\n    </tr>\n  </table>\n</body>\n</html>",
+        "textContent": "Subscription Confirmed - {{planName}}\n\nThank you, {{userName}}!\n\nYour subscription to {{planName}} has been confirmed.\n\nSubscription Details:\n- Plan: {{planName}}\n- Billing Period: {{billingPeriod}}\n- Price: {{price}}\n- Next Billing: {{nextBillingDate}}\n\nGo to Dashboard: {{dashboardUrl}}\n\n© {{siteName}}. All rights reserved.",
+        "variables": {
+          "userName": "User's display name",
+          "planName": "Subscription plan name",
+          "billingPeriod": "Monthly or Yearly",
+          "price": "Subscription price",
+          "nextBillingDate": "Next billing date",
+          "siteName": "Your site name",
+          "dashboardUrl": "URL to dashboard"
+        },
+        "description": "Sent when a user subscribes to a plan",
+        "isActive": true,
+        "createdAt": "2026-01-29T19:50:08.330Z",
+        "updatedAt": "2026-01-29T19:50:08.330Z"
+      },
+      {
+        "id": "cmkzvc5oq003xgnorggiq2qxe",
+        "name": "Subscription Cancelled",
+        "slug": "subscription-cancelled",
+        "subject": "Subscription Cancelled",
+        "htmlContent": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Subscription Cancelled</title>\n</head>\n<body style=\"margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; background-color: #f4f4f5;\">\n  <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" style=\"max-width: 600px; margin: 0 auto; padding: 40px 20px;\">\n    <tr>\n      <td>\n        <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" style=\"background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);\">\n          <tr>\n            <td style=\"background-color: #18181b; padding: 24px; text-align: center;\">\n              <h1 style=\"color: #ffffff; margin: 0; font-size: 24px;\">{{siteName}}</h1>\n            </td>\n          </tr>\n          <tr>\n            <td style=\"padding: 32px 24px;\">\n              <h2 style=\"color: #18181b; margin: 0 0 16px; font-size: 20px;\">Subscription Cancelled</h2>\n              <p style=\"color: #52525b; margin: 0 0 24px; font-size: 16px; line-height: 1.6;\">\n                Hi {{userName}}, your <strong>{{planName}}</strong> subscription has been cancelled as requested.\n              </p>\n              <p style=\"color: #52525b; margin: 0 0 24px; font-size: 16px; line-height: 1.6;\">\n                You'll continue to have access until <strong>{{endDate}}</strong>.\n              </p>\n              <p style=\"color: #52525b; margin: 0 0 24px; font-size: 16px; line-height: 1.6;\">\n                We'd love to have you back! If you change your mind, you can resubscribe at any time.\n              </p>\n              <table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" style=\"margin: 0 auto;\">\n                <tr>\n                  <td style=\"background-color: #18181b; border-radius: 6px;\">\n                    <a href=\"{{resubscribeUrl}}\" style=\"display: inline-block; padding: 12px 24px; color: #ffffff; text-decoration: none; font-size: 16px; font-weight: 500;\">\n                      Resubscribe\n                    </a>\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n          <tr>\n            <td style=\"background-color: #f4f4f5; padding: 16px 24px; text-align: center;\">\n              <p style=\"color: #71717a; margin: 0; font-size: 14px;\">\n                © {{siteName}}. All rights reserved.\n              </p>\n            </td>\n          </tr>\n        </table>\n      </td>\n    </tr>\n  </table>\n</body>\n</html>",
+        "textContent": "Subscription Cancelled\n\nHi {{userName}},\n\nYour {{planName}} subscription has been cancelled as requested.\n\nYou'll continue to have access until {{endDate}}.\n\nWe'd love to have you back! If you change your mind, you can resubscribe at any time:\n{{resubscribeUrl}}\n\n© {{siteName}}. All rights reserved.",
+        "variables": {
+          "userName": "User's display name",
+          "planName": "Cancelled plan name",
+          "endDate": "When access ends",
+          "siteName": "Your site name",
+          "resubscribeUrl": "URL to resubscribe"
+        },
+        "description": "Sent when a user cancels their subscription",
+        "isActive": true,
+        "createdAt": "2026-01-29T19:50:08.331Z",
+        "updatedAt": "2026-01-29T19:50:08.331Z"
+      },
+      {
+        "id": "cmkzvc5ou003ygnorv13izvof",
+        "name": "Email Verification",
+        "slug": "email-verification",
+        "subject": "Verify Your Email Address",
+        "htmlContent": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Verify Your Email</title>\n</head>\n<body style=\"margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; background-color: #f4f4f5;\">\n  <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" style=\"max-width: 600px; margin: 0 auto; padding: 40px 20px;\">\n    <tr>\n      <td>\n        <table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" style=\"background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);\">\n          <tr>\n            <td style=\"background-color: #18181b; padding: 24px; text-align: center;\">\n              <h1 style=\"color: #ffffff; margin: 0; font-size: 24px;\">{{siteName}}</h1>\n            </td>\n          </tr>\n          <tr>\n            <td style=\"padding: 32px 24px;\">\n              <h2 style=\"color: #18181b; margin: 0 0 16px; font-size: 20px;\">Verify Your Email</h2>\n              <p style=\"color: #52525b; margin: 0 0 24px; font-size: 16px; line-height: 1.6;\">\n                Hi {{userName}}, please verify your email address by clicking the button below.\n              </p>\n              <table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" style=\"margin: 0 auto;\">\n                <tr>\n                  <td style=\"background-color: #18181b; border-radius: 6px;\">\n                    <a href=\"{{verifyLink}}\" style=\"display: inline-block; padding: 12px 24px; color: #ffffff; text-decoration: none; font-size: 16px; font-weight: 500;\">\n                      Verify Email\n                    </a>\n                  </td>\n                </tr>\n              </table>\n              <p style=\"color: #71717a; margin: 24px 0 0; font-size: 14px; line-height: 1.6;\">\n                This link will expire in {{expiryTime}}. If you didn't create an account, you can safely ignore this email.\n              </p>\n            </td>\n          </tr>\n          <tr>\n            <td style=\"background-color: #f4f4f5; padding: 16px 24px; text-align: center;\">\n              <p style=\"color: #71717a; margin: 0; font-size: 14px;\">\n                © {{siteName}}. All rights reserved.\n              </p>\n            </td>\n          </tr>\n        </table>\n      </td>\n    </tr>\n  </table>\n</body>\n</html>",
+        "textContent": "Verify Your Email\n\nHi {{userName}},\n\nPlease verify your email address by clicking the link below:\n\n{{verifyLink}}\n\nThis link will expire in {{expiryTime}}. If you didn't create an account, you can safely ignore this email.\n\n© {{siteName}}. All rights reserved.",
+        "variables": {
+          "userName": "User's display name",
+          "verifyLink": "Email verification URL",
+          "expiryTime": "Link expiry time",
+          "siteName": "Your site name"
+        },
+        "description": "Sent to verify user's email address",
+        "isActive": true,
+        "createdAt": "2026-01-29T19:50:08.335Z",
+        "updatedAt": "2026-01-29T19:50:08.335Z"
+      }
+    ],
+    "emailLogs": []
+  }
+}
